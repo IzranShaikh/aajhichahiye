@@ -1,0 +1,64 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-26 13:23 IST
+Nmap scan report for monkeytype.com (104.26.1.151)
+Host is up (0.010s latency).
+Other addresses for monkeytype.com (not scanned): 172.67.69.61 104.26.0.151 2606:4700:20::681a:97 2606:4700:20::681a:197 2606:4700:20::ac43:453d
+
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for auth.monkeytype.com (104.26.0.151)
+Host is up (0.0100s latency).
+Other addresses for auth.monkeytype.com (not scanned): 104.26.1.151 172.67.69.61 2606:4700:20::681a:197 2606:4700:20::681a:97 2606:4700:20::ac43:453d
+
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for fingermap.monkeytype.com (172.67.69.61)
+Host is up (0.0096s latency).
+Other addresses for fingermap.monkeytype.com (not scanned): 104.26.1.151 104.26.0.151 2606:4700:20::ac43:453d 2606:4700:20::681a:197 2606:4700:20::681a:97
+
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for redirects.monkeytype.com (104.26.0.151)
+Host is up (0.011s latency).
+Other addresses for redirects.monkeytype.com (not scanned): 104.26.1.151 172.67.69.61 2606:4700:20::681a:197 2606:4700:20::ac43:453d 2606:4700:20::681a:97
+
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for dev.monkeytype.com (172.67.69.61)
+Host is up (0.011s latency).
+Other addresses for dev.monkeytype.com (not scanned): 104.26.0.151 104.26.1.151 2606:4700:20::681a:97 2606:4700:20::681a:197 2606:4700:20::ac43:453d
+
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for api.monkeytype.com (104.26.1.151)
+Host is up (0.011s latency).
+Other addresses for api.monkeytype.com (not scanned): 104.26.0.151 172.67.69.61 2606:4700:20::681a:97 2606:4700:20::681a:197 2606:4700:20::ac43:453d
+
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+| http-waf-detect: IDS/IPS/WAF detected:
+|_api.monkeytype.com:443/?p4yl04d3=<script>alert(document.cookie)</script>
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 6 IP addresses (6 hosts up) scanned in 37.77 seconds

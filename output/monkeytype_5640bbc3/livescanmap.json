@@ -1,0 +1,320 @@
+[
+    {
+        "timestamp": "2026-02-26T13:24:00.487445532+05:30",
+        "cdn_name": "cloudflare",
+        "cdn_type": "waf",
+        "port": "443",
+        "url": "https://auth.monkeytype.com:443",
+        "input": "https://auth.monkeytype.com:443",
+        "title": "Site Not Found",
+        "scheme": "https",
+        "webserver": "cloudflare",
+        "content_type": "text/html",
+        "method": "GET",
+        "host": "auth.monkeytype.com",
+        "host_ip": "104.26.1.151",
+        "path": "/",
+        "time": "129.338229ms",
+        "a": [
+            "172.67.69.61",
+            "104.26.1.151",
+            "104.26.0.151"
+        ],
+        "aaaa": [
+            "2606:4700:20::681a:197",
+            "2606:4700:20::ac43:453d",
+            "2606:4700:20::681a:97"
+        ],
+        "tech": [
+            "Cloudflare",
+            "Firebase",
+            "HSTS"
+        ],
+        "words": 733,
+        "lines": 105,
+        "status_code": 404,
+        "content_length": 22184,
+        "failed": false,
+        "cdn": true,
+        "knowledgebase": {
+            "PageType": "nonerror",
+            "pHash": 0
+        },
+        "resolvers": [
+            "1.1.1.1:53",
+            "1.0.0.1:53"
+        ],
+        "cpe": [
+            {
+                "product": "zpan",
+                "vendor": "saltbo",
+                "cpe": "cpe:2.3:a:saltbo:zpan:*:*:*:*:*:*:*:*"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-02-26T13:24:00.648617357+05:30",
+        "cdn_name": "cloudflare",
+        "cdn_type": "waf",
+        "port": "443",
+        "url": "https://api.monkeytype.com:443",
+        "input": "https://api.monkeytype.com:443",
+        "scheme": "https",
+        "webserver": "cloudflare",
+        "content_type": "application/json",
+        "method": "GET",
+        "host": "api.monkeytype.com",
+        "host_ip": "104.26.1.151",
+        "path": "/",
+        "time": "328.176248ms",
+        "a": [
+            "104.26.1.151",
+            "172.67.69.61",
+            "104.26.0.151",
+            "172.64.34.103",
+            "108.162.194.103",
+            "162.159.38.103",
+            "162.159.44.197",
+            "172.64.35.197",
+            "108.162.195.197"
+        ],
+        "aaaa": [
+            "2606:4700:50::a29f:2667",
+            "2803:f800:50::6ca2:c267",
+            "2a06:98c1:50::ac40:2267",
+            "2a06:98c1:50::ac40:23c5",
+            "2606:4700:58::a29f:2cc5",
+            "2803:f800:50::6ca2:c3c5",
+            "2606:4700:20::681a:197",
+            "2606:4700:20::681a:97",
+            "2606:4700:20::ac43:453d"
+        ],
+        "tech": [
+            "Cloudflare",
+            "HSTS"
+        ],
+        "words": 1,
+        "lines": 1,
+        "status_code": 200,
+        "content_length": 84,
+        "failed": false,
+        "cdn": true,
+        "knowledgebase": {
+            "PageType": "login",
+            "pHash": 0
+        },
+        "resolvers": [
+            "10.255.255.254:53"
+        ]
+    },
+    {
+        "timestamp": "2026-02-26T13:24:00.782494912+05:30",
+        "cdn_name": "cloudflare",
+        "cdn_type": "waf",
+        "port": "443",
+        "url": "https://redirects.monkeytype.com:443",
+        "input": "https://redirects.monkeytype.com:443",
+        "title": "monkeytype-redirects ui",
+        "scheme": "https",
+        "webserver": "cloudflare",
+        "content_type": "text/html",
+        "method": "GET",
+        "host": "redirects.monkeytype.com",
+        "host_ip": "104.26.0.151",
+        "path": "/",
+        "time": "454.977751ms",
+        "a": [
+            "104.26.0.151",
+            "104.26.1.151",
+            "172.67.69.61"
+        ],
+        "aaaa": [
+            "2606:4700:20::ac43:453d",
+            "2606:4700:20::681a:97",
+            "2606:4700:20::681a:197"
+        ],
+        "tech": [
+            "Cloudflare",
+            "HSTS"
+        ],
+        "words": 64,
+        "lines": 14,
+        "status_code": 200,
+        "content_length": 1389,
+        "failed": false,
+        "cdn": true,
+        "knowledgebase": {
+            "PageType": "other",
+            "pHash": 0
+        },
+        "resolvers": [
+            "1.1.1.1:53",
+            "8.8.8.8:53"
+        ]
+    },
+    {
+        "timestamp": "2026-02-26T13:24:00.80653124+05:30",
+        "cdn_name": "cloudflare",
+        "cdn_type": "waf",
+        "port": "443",
+        "url": "https://fingermap.monkeytype.com:443",
+        "input": "https://fingermap.monkeytype.com:443",
+        "title": "Fingermap",
+        "scheme": "https",
+        "webserver": "cloudflare",
+        "content_type": "text/html",
+        "method": "GET",
+        "host": "fingermap.monkeytype.com",
+        "host_ip": "172.67.69.61",
+        "path": "/",
+        "time": "449.746705ms",
+        "a": [
+            "104.26.0.151",
+            "104.26.1.151",
+            "172.67.69.61"
+        ],
+        "aaaa": [
+            "2606:4700:20::681a:97",
+            "2606:4700:20::ac43:453d",
+            "2606:4700:20::681a:197"
+        ],
+        "tech": [
+            "Cloudflare",
+            "Fastly",
+            "GitHub Pages",
+            "Varnish",
+            "html2canvas",
+            "jQuery:3.5.1"
+        ],
+        "words": 2807,
+        "lines": 246,
+        "status_code": 200,
+        "content_length": 8327,
+        "failed": false,
+        "cdn": true,
+        "knowledgebase": {
+            "PageType": "nonerror",
+            "pHash": 0
+        },
+        "resolvers": [
+            "1.0.0.1:53",
+            "8.8.4.4:53"
+        ]
+    },
+    {
+        "timestamp": "2026-02-26T13:24:01.068515579+05:30",
+        "cdn_name": "cloudflare",
+        "cdn_type": "waf",
+        "port": "443",
+        "url": "https://monkeytype.com:443",
+        "input": "https://monkeytype.com:443",
+        "title": "Monkeytype | A minimalistic, customizable typing test",
+        "scheme": "https",
+        "webserver": "cloudflare",
+        "content_type": "text/html",
+        "method": "GET",
+        "host": "monkeytype.com",
+        "host_ip": "104.26.0.151",
+        "path": "/",
+        "time": "132.346293ms",
+        "a": [
+            "172.67.69.61",
+            "104.26.0.151",
+            "104.26.1.151"
+        ],
+        "aaaa": [
+            "2606:4700:9a9a:7e1d:56c5:0:93d4:e92b"
+        ],
+        "tech": [
+            "Cloudflare",
+            "Firebase",
+            "HSTS",
+            "reCAPTCHA"
+        ],
+        "words": 9585,
+        "lines": 1,
+        "status_code": 200,
+        "content_length": 142441,
+        "failed": false,
+        "cdn": true,
+        "knowledgebase": {
+            "PageType": "other",
+            "pHash": 0
+        },
+        "resolvers": [
+            "8.8.4.4:53",
+            "1.1.1.1:53"
+        ],
+        "cpe": [
+            {
+                "product": "webp_server_go",
+                "vendor": "webp",
+                "cpe": "cpe:2.3:a:webp:webp_server_go:*:*:*:*:*:*:*:*"
+            },
+            {
+                "product": "element",
+                "vendor": "matrix",
+                "cpe": "cpe:2.3:a:matrix:element:*:*:*:*:*:*:*:*"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-02-26T13:24:01.323605952+05:30",
+        "cdn_name": "cloudflare",
+        "cdn_type": "waf",
+        "port": "443",
+        "url": "https://dev.monkeytype.com:443",
+        "input": "https://dev.monkeytype.com:443",
+        "title": "Monkeytype | A minimalistic, customizable typing test",
+        "scheme": "https",
+        "webserver": "cloudflare",
+        "content_type": "text/html",
+        "method": "GET",
+        "host": "dev.monkeytype.com",
+        "host_ip": "104.26.0.151",
+        "path": "/",
+        "time": "272.336188ms",
+        "a": [
+            "104.26.1.151",
+            "104.26.0.151",
+            "172.67.69.61"
+        ],
+        "aaaa": [
+            "2606:4700:20::681a:97",
+            "2606:4700:20::ac43:453d",
+            "2606:4700:20::681a:197"
+        ],
+        "tech": [
+            "Cloudflare",
+            "Firebase",
+            "HSTS",
+            "reCAPTCHA"
+        ],
+        "words": 11098,
+        "lines": 7,
+        "status_code": 200,
+        "content_length": 165260,
+        "failed": false,
+        "cdn": true,
+        "knowledgebase": {
+            "PageType": "other",
+            "pHash": 0
+        },
+        "resolvers": [
+            "8.8.8.8:53",
+            "1.0.0.1:53"
+        ],
+        "cpe": [
+            {
+                "product": "webp_server_go",
+                "vendor": "webp",
+                "cpe": "cpe:2.3:a:webp:webp_server_go:*:*:*:*:*:*:*:*"
+            },
+            {
+                "product": "element",
+                "vendor": "matrix",
+                "cpe": "cpe:2.3:a:matrix:element:*:*:*:*:*:*:*:*"
+            }
+        ]
+    }
+]

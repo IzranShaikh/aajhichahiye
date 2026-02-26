@@ -1,0 +1,44 @@
+[
+  {
+    "detected": true,
+    "firewall": "Cloudflare",
+    "manufacturer": "Cloudflare Inc.",
+    "trigger_url": "https://monkeytype.com/?fbgvocfz=%3Cscript%3Ealert%28%22XSS%22%29%3B%3C%2Fscript%3E&oyixcvnq=UNION+SELECT+ALL+FROM+information_schema+AND+%22+or+SLEEP%285%29+or+%22&bdrcoyam=..%2F..%2Fetc%2Fpasswd",
+    "url": "https://monkeytype.com"
+  },
+  {
+    "detected": true,
+    "firewall": "Cloudflare",
+    "manufacturer": "Cloudflare Inc.",
+    "trigger_url": "https://auth.monkeytype.com/?ixhwytzz=%3Cscript%3Ealert%28%22XSS%22%29%3B%3C%2Fscript%3E&gigkjmes=UNION+SELECT+ALL+FROM+information_schema+AND+%22+or+SLEEP%285%29+or+%22&onxlqmin=..%2F..%2Fetc%2Fpasswd",
+    "url": "https://auth.monkeytype.com"
+  },
+  {
+    "detected": true,
+    "firewall": "Cloudflare",
+    "manufacturer": "Cloudflare Inc.",
+    "trigger_url": "https://redirects.monkeytype.com/?mwdxahkp=%3Cscript%3Ealert%28%22XSS%22%29%3B%3C%2Fscript%3E&tiwzsbik=UNION+SELECT+ALL+FROM+information_schema+AND+%22+or+SLEEP%285%29+or+%22&czlfaixo=..%2F..%2Fetc%2Fpasswd",
+    "url": "https://redirects.monkeytype.com"
+  },
+  {
+    "detected": true,
+    "firewall": "Cloudflare",
+    "manufacturer": "Cloudflare Inc.",
+    "trigger_url": "https://fingermap.monkeytype.com/?qnatvpiv=%3Cscript%3Ealert%28%22XSS%22%29%3B%3C%2Fscript%3E&bgmziphn=UNION+SELECT+ALL+FROM+information_schema+AND+%22+or+SLEEP%285%29+or+%22&ipglzfle=..%2F..%2Fetc%2Fpasswd",
+    "url": "https://fingermap.monkeytype.com"
+  },
+  {
+    "detected": true,
+    "firewall": "Cloudflare",
+    "manufacturer": "Cloudflare Inc.",
+    "trigger_url": "https://dev.monkeytype.com/?luikvjqy=%3Cscript%3Ealert%28%22XSS%22%29%3B%3C%2Fscript%3E&gynondgv=UNION+SELECT+ALL+FROM+information_schema+AND+%22+or+SLEEP%285%29+or+%22&nzfgmtdb=..%2F..%2Fetc%2Fpasswd",
+    "url": "https://dev.monkeytype.com"
+  },
+  {
+    "detected": true,
+    "firewall": "Cloudflare",
+    "manufacturer": "Cloudflare Inc.",
+    "trigger_url": "https://api.monkeytype.com/?qcncbcmu=%3Cscript%3Ealert%28%22XSS%22%29%3B%3C%2Fscript%3E&iccjbboe=UNION+SELECT+ALL+FROM+information_schema+AND+%22+or+SLEEP%285%29+or+%22&ojgbjgho=..%2F..%2Fetc%2Fpasswd",
+    "url": "https://api.monkeytype.com"
+  }
+]

@@ -1,0 +1,6 @@
+https://monkeytype.com
+https://auth.monkeytype.com
+https://redirects.monkeytype.com
+https://fingermap.monkeytype.com
+https://dev.monkeytype.com
+https://api.monkeytype.com
