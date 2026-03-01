@@ -4,10 +4,10 @@ import re
 import xml.etree.ElementTree as ET
 import requests
 import json
+from urllib.parse import urlparse
 import os
 import socket
 from collections import defaultdict
-from urllib.parse import urlparse
 import uuid
 from urllib.parse import urlparse
 from typing import Optional, Dict, Any
@@ -40,20 +40,24 @@ def validate_domain(domain: str) -> str:
 # -------------------------
 TOOLS = {
     "subfinder": {
-        "cmd": lambda domain: ["subfinder", "-d", domain, "-silent"],
+        "cmd": lambda domain: ["subfinder", 
+                               "-d", domain, 
+                               "-silent"],
         "output": "subfinder.txt",
         "blocking": True
     },
     "sublist3r": {
-        "cmd": lambda domain: ["sublist3r", "-d", domain, "-n", "-o", OUTPUT_DIR /"sublist3r.txt"],
+        "cmd": lambda domain: ["sublist3r", 
+                               "-d", domain, 
+                               "-n", "-o", OUTPUT_DIR /"sublist3r.txt"],
         "output": "lister.txt",
         "blocking": False
     },
-    # "amass": {
-    #     "cmd": lambda domain: ["amass", "enum", "-passive", "-d", domain],
-    #     "output": "amass.txt",
-    #     "blocking": False
-    # },
+    "amass": {
+        "cmd": lambda org_name: ["./amasscript.sh", org_name, OUTPUT_DIR],
+        "output": "amassstdout.txt",
+        "blocking": False
+    },
     "httpx": {
         "cmd": lambda _: ["httpx", "-silent", 
                           #"-p", "1-65535", 
@@ -62,12 +66,17 @@ TOOLS = {
         "blocking": True
     },
     "wafw00f": {
-        "cmd": lambda _: ["wafw00f", "-i", OUTPUT_DIR / "live.txt", "-f", "json", "-o", OUTPUT_DIR / "wafw00f.json"],
+        "cmd": lambda _: ["wafw00f", "-i", OUTPUT_DIR / "live.txt", 
+                          "-f", "json", 
+                          "-o", OUTPUT_DIR / "wafw00f.json"],
         "output": "wafw00f.txt",
-        "blocking": True
+        "blocking": False
     },
     "nmap": {
-        "cmd": lambda _: ["nmap", "-iL", OUTPUT_DIR / "ns_live.txt", "--script", "http-waf-detect", "-p80,443,8080,8443", "-oX", OUTPUT_DIR / "nmap.xml"],
+        "cmd": lambda _: ["nmap", "-iL", OUTPUT_DIR / "ns_live.txt", 
+                          "--script", "http-waf-detect", 
+                          "-p80,443,8080,8443", "-sV",
+                          "-oX", OUTPUT_DIR / "nmap.xml"],
         "output": "nmap.txt",
         "blocking": True
     },
@@ -76,8 +85,8 @@ TOOLS = {
                           #"-p", "1-65535",
                           "-l", OUTPUT_DIR / "scanmap.txt",
                           "-sc", "-title", "-td",
-                          "-json"],
-        "output": "livescanmap.json",
+                          "-oa", "-o", OUTPUT_DIR / "livescanmap"],
+        "output": "livescanmap.txt",
         "blocking": True
     },
 }
@@ -135,6 +144,39 @@ def execute_request(config: Dict[str, Any], timeout: int):
     except ValueError:
         return response.text
 
+def build_mapping_from_nmap(nmap_file, output_file):
+    nmap_file = Path(nmap_file)
+    output_file = Path(output_file)
+    ip_to_hosts = defaultdict(set)
+    for event, elem in ET.iterparse(nmap_file, events=("end",)):
+        if elem.tag == "host":
+            address_elem = elem.find("address")
+            if address_elem is None:
+                elem.clear()
+                continue
+            ip = address_elem.get("addr")
+            if not ip:
+                elem.clear()
+                continue
+            hostname_elem = elem.find("hostnames/hostname")
+            if hostname_elem is None:
+                elem.clear()
+                continue
+            hostname = hostname_elem.get("name")
+            if not hostname:
+                elem.clear()
+                continue
+            ip_to_hosts[ip].add(hostname)
+            elem.clear()
+    final_mapping = {
+        ip: sorted(list(hosts))
+        for ip, hosts in ip_to_hosts.items()
+    }
+    with output_file.open("w") as f:
+        json.dump(final_mapping, f, indent=2)
+    print(f"✅ mapping.json generated at {output_file}")
+    return final_mapping
+
 def write_output(filename: str, data):
     if isinstance(data, (dict, list)):
         with open(OUTPUT_DIR / filename, "w", encoding="utf-8") as f:
@@ -147,9 +189,231 @@ def deduplicate_ips(mapping):
     unique_ips = set(mapping.keys())
     return list(unique_ips)
 
-# -------------------------
-# NMAP PARSING
-# -------------------------
+def generate_scan_report(
+    nmap_file,
+    livescan_file,
+    output_file
+):
+    """
+    Generate consolidated scan report JSON using:
+        - nmap.xml (hostname, ip, ports)
+        - livescanmap.json (status_code, tech_stack, waf)
+
+    No mapping.json required.
+    Hostname-based aggregation.
+    """
+
+    nmap_file = Path(nmap_file)
+    livescan_file = Path(livescan_file)
+    output_file = Path(output_file)
+
+    # =========================
+    # 1️⃣ Parse nmap.xml (hostname -> ip + unique ports)
+    # Ignore <hosthint>, parse only <host>
+    # =========================
+    host_data = {}
+
+    for event, elem in ET.iterparse(nmap_file, events=("end",)):
+        if elem.tag == "host":
+
+            address_elem = elem.find("address")
+            if address_elem is None:
+                elem.clear()
+                continue
+
+            ip = address_elem.get("addr", "-")
+
+            hostname_elem = elem.find("hostnames/hostname")
+            if hostname_elem is None:
+                elem.clear()
+                continue
+
+            hostname = hostname_elem.get("name")
+            if not hostname:
+                elem.clear()
+                continue
+
+            # Initialize if first time seen
+            if hostname not in host_data:
+                host_data[hostname] = {
+                    "ip": ip,
+                    "ports": {}
+                }
+
+            ports_elem = elem.find("ports")
+            if ports_elem is not None:
+                for port in ports_elem.findall("port"):
+                    state = port.find("state")
+                    if state is None or state.get("state") != "open":
+                        continue
+
+                    portid = port.get("portid")
+                    try:
+                        portid = int(portid)
+                    except (TypeError, ValueError):
+                        continue
+
+                    service_elem = port.find("service")
+
+                    service_name = "-"
+                    version_string = "-"
+
+                    if service_elem is not None:
+                        service_name = service_elem.get("name") or "-"
+
+                        product = service_elem.get("product") or ""
+                        version = service_elem.get("version") or ""
+                        extrainfo = service_elem.get("extrainfo") or ""
+
+                        if service_elem.get("tunnel") == "ssl" and service_name == "http":
+                            service_name = "https"
+
+                        version_parts = [p for p in (product, version, extrainfo) if p]
+                        if version_parts:
+                            version_string = " ".join(version_parts)
+
+                    # Deduplicate by port number
+                    host_data[hostname]["ports"][portid] = {
+                        "service": service_name,
+                        "port": portid,
+                        "version": version_string
+                    }
+
+            elem.clear()
+
+    # =========================
+    # 2️⃣ Parse livescanmap.json (NDJSON style)
+    # =========================
+    host_to_tech = defaultdict(set)
+    host_to_waf = {}
+    host_to_status = {}
+
+    with livescan_file.open("r") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+
+            try:
+                entry = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+
+            url = entry.get("url") or entry.get("input")
+            if not url:
+                continue
+
+            hostname = urlparse(url).hostname
+            if not hostname:
+                continue
+
+            # Status code
+            status_code = entry.get("status_code")
+            if status_code is not None:
+                host_to_status[hostname] = status_code
+
+            # Tech stack
+            tech_list = entry.get("tech", [])
+            if isinstance(tech_list, list):
+                for tech in tech_list:
+                    if tech:
+                        host_to_tech[hostname].add(tech)
+            elif isinstance(tech_list, str):
+                host_to_tech[hostname].add(tech_list)
+
+            # Explicit WAF only
+            if entry.get("cdn_type") == "waf":
+                waf_name = entry.get("cdn_name") or entry.get("webserver")
+                if waf_name:
+                    host_to_waf[hostname] = waf_name
+
+    # =========================
+    # 3️⃣ Build Final Output
+    # =========================
+    final_output = []
+
+    all_hosts = set(host_data.keys()) | set(host_to_tech.keys())
+
+    for host in sorted(all_hosts):
+
+        ip = host_data.get(host, {}).get("ip", "-")
+
+        ports_dict = host_data.get(host, {}).get("ports", {})
+        ports = list(sorted(ports_dict.values(), key=lambda x: x["port"]))
+
+        if not ports:
+            ports = [{
+                "service": "-",
+                "port": "-",
+                "version": "-"
+            }]
+
+        status_code = host_to_status.get(host, "-")
+
+        waf = host_to_waf.get(host, "None")
+
+        tech_list = sorted(host_to_tech.get(host, []))
+        if not tech_list:
+            tech_list = ["-"]
+
+        final_output.append({
+            host: {
+                "ip": ip,
+                "status_code": status_code,
+                "ports": ports,
+                "waf": waf,
+                "tech_stack": tech_list
+            }
+        })
+
+    # =========================
+    # 4️⃣ Write Output File
+    # =========================
+    with output_file.open("w") as f:
+        json.dump(final_output, f, indent=4)
+
+    print(f"✅ Report generated at {output_file}")
+
+def nse_scan(input_xml, output_file):
+    tree = ET.parse(input_xml)
+    root = tree.getroot()
+    with open(output_file, "a") as outfile:
+        outfile.write(f"\n\n===== Second Stage Scan Started =====\n")
+        print(f"[✓] Starting second stage scan. Output will be written to {output_file}")
+        for host in root.findall("host"):
+            hostname = host.find("hostnames/hostname").get("name") if host.find("hostnames/hostname") is not None else None
+            if hostname is None:
+                continue
+            target = hostname.split("://")[1] if "://" in hostname else hostname
+            ports = ""
+            for port in host.findall(".//port"):
+                state = port.find("state")
+                if state is not None and state.get("state") == "open":
+                    ports += port.get("portid") + ","
+            ports = ports.rstrip(",")
+            if not ports:
+                continue
+            cmd = [
+                "nmap",
+                "-Pn",
+                "-sCV",
+                f"-p{ports}",
+                "--script",
+                "discovery,vuln,exploit",
+                target,
+            ]
+            outfile.write(f"\n\n----- Scanning {target} on ports {ports} -----\n")
+            print(f"[✓] Scanning {target} on ports {ports} with Nmap...")
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True
+            )
+            outfile.write(result.stdout)
+            outfile.write(result.stderr)
+        outfile.write(f"\n===== Scan Completed =====\n")
+        print(f"[✓] Scan completed. Output written to {output_file}")
+
 def extract_http_services_from_nmap(xml_file, output_file):
     tree = ET.parse(xml_file)
     root = tree.getroot()
@@ -179,16 +443,13 @@ def map_ips_with_domains_and_port(scan_file, mapping_file, output_file):
                 continue
             ip, port = line.split(":", 1)
             ip_to_ports[ip].append(port)
-
     with open(mapping_file, "r") as f:
         ip_to_domains = json.load(f)
-
     for ip, domains in ip_to_domains.items():
         ports = ip_to_ports.get(ip, [])
         for domain in domains:
             for port in ports:
                 results.append(f"{domain}:{port}")
-                
     with open(output_file, "w") as f:
         f.write("\n".join(results))
     print(f"[✓] Mapping completed. Output written to {output_file}")
@@ -336,7 +597,7 @@ def run_pipeline(domain):
     print("[*] Merging all the results...")
     merge_and_dedupe([OUTPUT_DIR / TOOLS["subfinder"]["output"],
             OUTPUT_DIR / "sublist3r.txt",
-            OUTPUT_DIR / TOOLS["sublist3r"]["output"],
+            # OUTPUT_DIR / TOOLS["sublist3r"]["output"],
             # OUTPUT_DIR / TOOLS["amass"]["output"]
             ],OUTPUT_DIR / "subdomains.txt")
     print("[+] subdomains.txt ready")
@@ -357,12 +618,6 @@ def run_pipeline(domain):
     subs = []
     for li in file:
         subs.append(li.strip())
-    print("[/] Resolution stage...")
-    mapping = resolve_subdomains(subs)
-    write_text(OUTPUT_DIR / 'mapping.json', json.dumps(mapping, indent=2))
-    ips = deduplicate_ips(mapping)
-    write_text(OUTPUT_DIR / 'ips.txt', "\n".join(ips))
-    
 
     # -------------------------
     # STAGE 5: WAF DETECTION
@@ -372,9 +627,8 @@ def run_pipeline(domain):
     if nextup["blocking"]:
         proc.wait()
         print(f"[+] {name} done")
-    split_waf_results(OUTPUT_DIR / "wafw00f.json")
+    # split_waf_results(OUTPUT_DIR / "wafw00f.json")
     remove_scheme(OUTPUT_DIR / "live.txt", OUTPUT_DIR / "ns_live.txt")
-    print("[+] waf detection stage finished ")
 
     # -------------------------
     # STAGE 6: PORT SCANNING
@@ -385,6 +639,12 @@ def run_pipeline(domain):
         tool_name, proc = run_tool(name, tool, domain)
         processes[tool_name] = proc
         processes[name].wait()
+    print("[/] Resolution stage...")
+    # mapping = resolve_subdomains(subs)
+    # write_text(OUTPUT_DIR / 'mapping.json', json.dumps(mapping, indent=2))
+    mapping = build_mapping_from_nmap(OUTPUT_DIR / "nmap.xml", OUTPUT_DIR / "mapping.json")
+    ips = deduplicate_ips(mapping)
+    write_text(OUTPUT_DIR / 'ips.txt', "\n".join(ips))
 
     # -------------------------
     # STAGE 7: PORT PARSING
@@ -403,6 +663,21 @@ def run_pipeline(domain):
     if nextup["blocking"]:
         proc.wait()
         print(f"[+] {name} done. output stored in {OUTPUT_DIR / 'livescanmap.txt'}")
+
+    # -------------------------
+    # STAGE 9: FINAL ENUM REPORT
+    # -------------------------
+    generate_scan_report(
+        # mapping_file = OUTPUT_DIR / "mapping.json",
+        nmap_file = OUTPUT_DIR / "nmap.xml",
+        livescan_file = OUTPUT_DIR / "livescanmap.json",
+        output_file = OUTPUT_DIR / "enum_output.json"
+    )
+
+    # -------------------------
+    # STAGE 10: NSE SCAN
+    # -------------------------
+    nse_scan(OUTPUT_DIR / "nmap.xml", OUTPUT_DIR / "nse.txt")
 
 
 # -------------------------
