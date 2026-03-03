@@ -1,0 +1,2563 @@
+
+                   [1;97m______
+                  [1;97m/      \
+                 [1;97m(  Woof! )
+                  [1;97m\  ____/                      [1;91m)
+                  [1;97m,,                           [1;91m) ([1;93m_
+             [1;93m.-. [1;97m-    [1;92m_______                 [1;91m( [1;93m|__|
+            [1;93m()``; [1;92m|==|_______)                [1;91m.)[1;93m|__|
+            [1;93m/ ('        [1;92m/|\                  [1;91m(  [1;93m|__|
+        [1;93m(  /  )       [1;92m / | \                  [1;91m. [1;93m|__|
+         [1;93m\(_)_))      [1;92m/  |  \                   [1;93m|__|[0m
+
+                    [1;96m~ WAFW00F : [1;94mv2.3.1 ~[1;97m
+    The Web Application Firewall Fingerprinting Toolkit
+    [0m
+[*] Checking https://accounts.growth.cal.com
+[+] The site [1;94mhttps://accounts.growth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://admin316.cal.com
+[+] The site [1;94mhttps://admin316.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://app.cal.com
+[+] The site [1;94mhttps://app.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ai.cal.com
+[+] The site [1;94mhttps://ai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://api.cal.com
+[+] The site [1;94mhttps://api.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://advanced-info-dynamics-inc.cal.com
+[+] The site [1;94mhttps://advanced-info-dynamics-inc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ads-doctor-enterprise.cal.com
+[+] The site [1;94mhttps://ads-doctor-enterprise.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://anabellagroup.cal.com
+[+] The site [1;94mhttps://anabellagroup.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://anytool.cal.com
+[+] The site [1;94mhttps://anytool.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://agno.cal.com
+[+] The site [1;94mhttps://agno.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://addecohr.cal.com
+[+] The site [1;94mhttps://addecohr.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://1callclosers.cal.com
+[+] The site [1;94mhttps://1callclosers.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ally-solutions.cal.com
+[+] The site [1;94mhttps://ally-solutions.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://1komma5grad.cal.com
+[+] The site [1;94mhttps://1komma5grad.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://antimetal.cal.com
+[+] The site [1;94mhttps://antimetal.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://aon-advisory-and-solutions.cal.com
+[+] The site [1;94mhttps://aon-advisory-and-solutions.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://apple.cal.com
+[+] The site [1;94mhttps://apple.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://aominfusionrx.cal.com
+[+] The site [1;94mhttps://aominfusionrx.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://archealth.cal.com
+[+] The site [1;94mhttps://archealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://anara.cal.com
+[+] The site [1;94mhttps://anara.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://aeva-health.cal.com
+[+] The site [1;94mhttps://aeva-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://10x-science.cal.com
+[+] The site [1;94mhttps://10x-science.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://aniva.cal.com
+[+] The site [1;94mhttps://aniva.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://acme.cal.com
+[+] The site [1;94mhttps://acme.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://alexis-test.cal.com
+[+] The site [1;94mhttps://alexis-test.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://776.cal.com
+[+] The site [1;94mhttps://776.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://aiva.cal.com
+[+] The site [1;94mhttps://aiva.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://act-performance-solutions.cal.com
+[+] The site [1;94mhttps://act-performance-solutions.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://alias.cal.com
+[+] The site [1;94mhttps://alias.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking http://balsamee.sa.cal.com
+[*] Checking https://arey.cal.com
+[+] The site [1;94mhttps://arey.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://automateadvance.cal.com
+[+] The site [1;94mhttps://automateadvance.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://auth.cal.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://barberjay.cal.com
+[+] The site [1;94mhttps://barberjay.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://archimed.cal.com
+[+] The site [1;94mhttps://archimed.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://aurelian.cal.com
+[+] The site [1;94mhttps://aurelian.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://axior.cal.com
+[+] The site [1;94mhttps://axior.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://beautologie.cal.com
+[+] The site [1;94mhttps://beautologie.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://arcmonroe.cal.com
+[+] The site [1;94mhttps://arcmonroe.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://basisvectors.cal.com
+[+] The site [1;94mhttps://basisvectors.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://archipro.cal.com
+[+] The site [1;94mhttps://archipro.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://atta.cal.com
+[+] The site [1;94mhttps://atta.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://aviatorjonah.cal.com
+[+] The site [1;94mhttps://aviatorjonah.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://beacon-health-marketing.cal.com
+[+] The site [1;94mhttps://beacon-health-marketing.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://autovo-ai.cal.com
+[+] The site [1;94mhttps://autovo-ai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://atlasnational.cal.com
+[+] The site [1;94mhttps://atlasnational.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://arkel.cal.com
+[+] The site [1;94mhttps://arkel.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://beldoo.cal.com
+[+] The site [1;94mhttps://beldoo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://axia.cal.com
+[+] The site [1;94mhttps://axia.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://beneport.cal.com
+[+] The site [1;94mhttps://beneport.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://bellway.cal.com
+[+] The site [1;94mhttps://bellway.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://airfront.cal.com
+[+] The site [1;94mhttps://airfront.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://belfabriek.cal.com
+[+] The site [1;94mhttps://belfabriek.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://blac.cal.com
+[+] The site [1;94mhttps://blac.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://bbd-test-org.cal.com
+[+] The site [1;94mhttps://bbd-test-org.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://binance.cal.com
+[+] The site [1;94mhttps://binance.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://blue-collar-ai.cal.com
+[+] The site [1;94mhttps://blue-collar-ai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://april.cal.com
+[+] The site [1;94mhttps://april.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://assembly-hoa.cal.com
+[+] The site [1;94mhttps://assembly-hoa.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://arsk.cal.com
+[+] The site [1;94mhttps://arsk.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking http://cal.outreachgenius.cal.com
+[*] Checking https://berkeley-carroll-msus-admissions.cal.com
+[+] The site [1;94mhttps://berkeley-carroll-msus-admissions.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://bid-equity.cal.com
+[+] The site [1;94mhttps://bid-equity.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cal.com
+[+] The site [1;94mhttps://cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://blue-dog-painting.cal.com
+[+] The site [1;94mhttps://blue-dog-painting.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://bob-does-taxes.cal.com
+[+] The site [1;94mhttps://bob-does-taxes.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://blagoweb.cal.com
+[+] The site [1;94mhttps://blagoweb.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://beluga-health.cal.com
+[+] The site [1;94mhttps://beluga-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://blacklivesmatter.cal.com
+[+] The site [1;94mhttps://blacklivesmatter.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://blackcloak.cal.com
+[+] The site [1;94mhttps://blackcloak.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://blue-edge-financial.cal.com
+[+] The site [1;94mhttps://blue-edge-financial.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://breath-to-bones.cal.com
+[+] The site [1;94mhttps://breath-to-bones.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://blindspot.cal.com
+[+] The site [1;94mhttps://blindspot.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://aclvb.cal.com
+[+] The site [1;94mhttps://aclvb.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://books-are-our-superpower.cal.com
+[+] The site [1;94mhttps://books-are-our-superpower.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://calcom-platform.cal.com
+[+] The site [1;94mhttps://calcom-platform.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://aggressive-scale.cal.com
+[+] The site [1;94mhttps://aggressive-scale.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://canary.cal.com
+[+] The site [1;94mhttps://canary.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://boosters-in-a-box.cal.com
+[+] The site [1;94mhttps://boosters-in-a-box.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cake.cal.com
+[+] The site [1;94mhttps://cake.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://blissful-balance.cal.com
+[+] The site [1;94mhttps://blissful-balance.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ai-global.cal.com
+[+] The site [1;94mhttps://ai-global.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://allcreators.cal.com
+[+] The site [1;94mhttps://allcreators.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://alora-pharmaceuticals.cal.com
+[+] The site [1;94mhttps://alora-pharmaceuticals.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://aetherpower.cal.com
+[+] The site [1;94mhttps://aetherpower.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://calasdasd.cal.com
+[+] The site [1;94mhttps://calasdasd.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://adult-xxx.cal.com
+[+] The site [1;94mhttps://adult-xxx.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://akido-labs.cal.com
+[+] The site [1;94mhttps://akido-labs.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://canar39544.cal.com
+[+] The site [1;94mhttps://canar39544.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cardinalfinancial.cal.com
+[+] The site [1;94mhttps://cardinalfinancial.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://airzeo.cal.com
+[+] The site [1;94mhttps://airzeo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://allianceforpositivehealth.cal.com
+[+] The site [1;94mhttps://allianceforpositivehealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://21bitcoin.cal.com
+[+] The site [1;94mhttps://21bitcoin.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://abacus.cal.com
+[+] The site [1;94mhttps://abacus.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://airwallex.cal.com
+[+] The site [1;94mhttps://airwallex.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://bytepass.cal.com
+[+] The site [1;94mhttps://bytepass.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking http://call.center.cal.com
+[*] Checking https://angellist.cal.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://carrotlabs.cal.com
+[+] The site [1;94mhttps://carrotlabs.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://carlton-design-co.cal.com
+[+] The site [1;94mhttps://carlton-design-co.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://boulderbirthandhealth.cal.com
+[+] The site [1;94mhttps://boulderbirthandhealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://branchlead.cal.com
+[+] The site [1;94mhttps://branchlead.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://allswell.cal.com
+[+] The site [1;94mhttps://allswell.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://botsappointments.cal.com
+[+] The site [1;94mhttps://botsappointments.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://addtimme.cal.com
+[+] The site [1;94mhttps://addtimme.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cargofax.cal.com
+[+] The site [1;94mhttps://cargofax.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://alchimetis.cal.com
+[+] The site [1;94mhttps://alchimetis.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://celesteia.cal.com
+[+] The site [1;94mhttps://celesteia.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://brandpilot.cal.com
+[+] The site [1;94mhttps://brandpilot.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://caribou.cal.com
+[+] The site [1;94mhttps://caribou.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://brandsol-agency.cal.com
+[+] The site [1;94mhttps://brandsol-agency.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://canterly.cal.com
+[+] The site [1;94mhttps://canterly.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://calgebra.cal.com
+[+] The site [1;94mhttps://calgebra.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://bvp.cal.com
+[+] The site [1;94mhttps://bvp.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cerebral.cal.com
+[+] The site [1;94mhttps://cerebral.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://catita1819.cal.com
+[+] The site [1;94mhttps://catita1819.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://celest.cal.com
+[+] The site [1;94mhttps://celest.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://callcierge-ai.cal.com
+[+] The site [1;94mhttps://callcierge-ai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://centerya.cal.com
+[+] The site [1;94mhttps://centerya.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://akido-labs-test.cal.com
+[+] The site [1;94mhttps://akido-labs-test.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://chippers-golf.cal.com
+[+] The site [1;94mhttps://chippers-golf.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://charleston-church-basic-foundation-class.cal.com
+[+] The site [1;94mhttps://charleston-church-basic-foundation-class.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cashdirector.cal.com
+[+] The site [1;94mhttps://cashdirector.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://carelink-demo-pharmacy.cal.com
+[+] The site [1;94mhttps://carelink-demo-pharmacy.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://avelahealth.cal.com
+[+] The site [1;94mhttps://avelahealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://causematch.cal.com
+[+] The site [1;94mhttps://causematch.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://clerk.growth.cal.com
+[+] The site [1;94mhttps://clerk.growth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://acnerevolution.cal.com
+[+] The site [1;94mhttps://acnerevolution.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://centura-wealth-advisory.cal.com
+[+] The site [1;94mhttps://centura-wealth-advisory.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://companion.cal.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://challenger-gray-christmas-executive-coaching.cal.com
+[+] The site [1;94mhttps://challenger-gray-christmas-executive-coaching.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cohort.cal.com
+[+] The site [1;94mhttps://cohort.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://coach-ia.cal.com
+[+] Generic Detection results:
+[*] The site https://coach-ia.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://circuit-court-calendar-demo.cal.com
+[+] The site [1;94mhttps://circuit-court-calendar-demo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://clara.cal.com
+[+] The site [1;94mhttps://clara.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cold-gtm.cal.com
+[+] The site [1;94mhttps://cold-gtm.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://closelq.cal.com
+[+] The site [1;94mhttps://closelq.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cleancloud.cal.com
+[+] The site [1;94mhttps://cleancloud.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://clearhire.cal.com
+[+] The site [1;94mhttps://clearhire.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://collective.cal.com
+[+] The site [1;94mhttps://collective.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://clai.cal.com
+[+] The site [1;94mhttps://clai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://chatsheet.cal.com
+[+] The site [1;94mhttps://chatsheet.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ceartas-midnight-labs.cal.com
+[+] The site [1;94mhttps://ceartas-midnight-labs.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://andyouph.cal.com
+[+] The site [1;94mhttps://andyouph.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://closera.cal.com
+[+] The site [1;94mhttps://closera.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://coloop.cal.com
+[+] The site [1;94mhttps://coloop.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://clasing.cal.com
+[+] The site [1;94mhttps://clasing.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://deel.cal.com
+[+] The site [1;94mhttps://deel.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://console.cal.com
+[+] The site [1;94mhttps://console.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://chartmogul.cal.com
+[+] The site [1;94mhttps://chartmogul.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://commodityai.cal.com
+[+] The site [1;94mhttps://commodityai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://convertr.cal.com
+[+] The site [1;94mhttps://convertr.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dalus.cal.com
+[+] The site [1;94mhttps://dalus.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://contrario-ai.cal.com
+[+] The site [1;94mhttps://contrario-ai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cognito-health.cal.com
+[+] The site [1;94mhttps://cognito-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://connor.cal.com
+[+] The site [1;94mhttps://connor.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://credoe-talent-solutions.cal.com
+[+] The site [1;94mhttps://credoe-talent-solutions.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://de-leon-tax.cal.com
+[+] The site [1;94mhttps://de-leon-tax.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://developer.cal.com
+[+] The site [1;94mhttps://developer.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cosalux-gmbh.cal.com
+[+] The site [1;94mhttps://cosalux-gmbh.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://demo-test-10.cal.com
+[+] The site [1;94mhttps://demo-test-10.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cornerstone-growth-solutions.cal.com
+[+] The site [1;94mhttps://cornerstone-growth-solutions.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cevidentia.cal.com
+[+] The site [1;94mhttps://cevidentia.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://crehana.cal.com
+[+] The site [1;94mhttps://crehana.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://daroon.cal.com
+[+] The site [1;94mhttps://daroon.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://credevolv.cal.com
+[+] The site [1;94mhttps://credevolv.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://deepaa.cal.com
+[+] The site [1;94mhttps://deepaa.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://conduit-health.cal.com
+[+] The site [1;94mhttps://conduit-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cord.cal.com
+[+] The site [1;94mhttps://cord.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://crewpoint.cal.com
+[+] Generic Detection results:
+[*] The site https://crewpoint.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://coreviva.cal.com
+[+] The site [1;94mhttps://coreviva.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cubic.cal.com
+[+] The site [1;94mhttps://cubic.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cloudtrack.cal.com
+[+] Generic Detection results:
+[*] The site https://cloudtrack.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://crowelogic.cal.com
+[+] The site [1;94mhttps://crowelogic.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://design.cal.com
+[+] The site [1;94mhttps://design.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dentalsem.cal.com
+[+] The site [1;94mhttps://dentalsem.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dcore-companies.cal.com
+[+] The site [1;94mhttps://dcore-companies.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://commenda.cal.com
+[+] The site [1;94mhttps://commenda.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://datost.cal.com
+[+] The site [1;94mhttps://datost.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://decathlon-seller-support.cal.com
+[+] The site [1;94mhttps://decathlon-seller-support.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://demoorganization.cal.com
+[+] The site [1;94mhttps://demoorganization.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cyberbase.cal.com
+[+] The site [1;94mhttps://cyberbase.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dicebi9498.cal.com
+[+] The site [1;94mhttps://dicebi9498.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://deleontax.cal.com
+[+] The site [1;94mhttps://deleontax.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://claytonkendall.cal.com
+[+] The site [1;94mhttps://claytonkendall.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://de-leon-tax-services.cal.com
+[+] The site [1;94mhttps://de-leon-tax-services.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dare.cal.com
+[+] The site [1;94mhttps://dare.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://committed-100.cal.com
+[+] The site [1;94mhttps://committed-100.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://demo.cal.com
+[+] The site [1;94mhttps://demo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://craftzing.cal.com
+[+] The site [1;94mhttps://craftzing.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dhstx.cal.com
+[+] The site [1;94mhttps://dhstx.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://discovrd.cal.com
+[+] The site [1;94mhttps://discovrd.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://creativecue.cal.com
+[+] The site [1;94mhttps://creativecue.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://docs.cal.com
+[+] The site [1;94mhttps://docs.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://deck.cal.com
+[+] The site [1;94mhttps://deck.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://desk.torvanmedical.com
+[+] Generic Detection results:
+[*] The site https://desk.torvanmedical.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server header is different when an attack is detected.
+The server header for a normal response is "ZGS", while the server header a response to an attack is "",
+[~] Number of requests: 6
+[*] Checking https://convertify-visitors.cal.com
+[+] The site [1;94mhttps://convertify-visitors.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://email.cal.com
+[+] The site [1;94mhttps://email.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://craft-peptides.cal.com
+[+] Generic Detection results:
+[*] The site https://craft-peptides.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://ekklo.cal.com
+[+] The site [1;94mhttps://ekklo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://eastworld.cal.com
+[+] The site [1;94mhttps://eastworld.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://cpd-wellness-program.cal.com
+[+] The site [1;94mhttps://cpd-wellness-program.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://drflow.cal.com
+[+] The site [1;94mhttps://drflow.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://earlyworks.cal.com
+[+] The site [1;94mhttps://earlyworks.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ember.cal.com
+[+] The site [1;94mhttps://ember.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://experts.cal.com
+[+] The site [1;94mhttps://experts.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://doubleverify.cal.com
+[+] The site [1;94mhttps://doubleverify.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dispensed.cal.com
+[+] The site [1;94mhttps://dispensed.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://efficheai.cal.com
+[+] The site [1;94mhttps://efficheai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dog-ppl.cal.com
+[+] The site [1;94mhttps://dog-ppl.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://evanhillberry.cal.com
+[+] The site [1;94mhttps://evanhillberry.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dubai-launches.cal.com
+[+] The site [1;94mhttps://dubai-launches.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://crewsnap.cal.com
+[+] The site [1;94mhttps://crewsnap.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://external.cal.com
+[+] The site [1;94mhttps://external.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://drb.cal.com
+[+] The site [1;94mhttps://drb.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dwellow.cal.com
+[+] The site [1;94mhttps://dwellow.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://essentialist.cal.com
+[+] The site [1;94mhttps://essentialist.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://extension-health.cal.com
+[+] The site [1;94mhttps://extension-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://entruempelung.cal.com
+[+] The site [1;94mhttps://entruempelung.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dobry.cal.com
+[+] The site [1;94mhttps://dobry.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://entel-digital.cal.com
+[+] The site [1;94mhttps://entel-digital.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://commendaplatform.cal.com
+[+] The site [1;94mhttps://commendaplatform.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dudasandboxorg.cal.com
+[+] The site [1;94mhttps://dudasandboxorg.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://elitewebsolutions.cal.com
+[+] The site [1;94mhttps://elitewebsolutions.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://everex-usa.cal.com
+[+] The site [1;94mhttps://everex-usa.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fast-pass-driving-academy.cal.com
+[+] The site [1;94mhttps://fast-pass-driving-academy.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fascinante-digital.cal.com
+[+] The site [1;94mhttps://fascinante-digital.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://english-tutoring-center.cal.com
+[+] The site [1;94mhttps://english-tutoring-center.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://drmwheeler.cal.com
+[+] The site [1;94mhttps://drmwheeler.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://elythea.cal.com
+[+] The site [1;94mhttps://elythea.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://effigov.cal.com
+[+] The site [1;94mhttps://effigov.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://domainmoney.cal.com
+[+] The site [1;94mhttps://domainmoney.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://exit-protocol.cal.com
+[+] The site [1;94mhttps://exit-protocol.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://elitklinik.cal.com
+[+] The site [1;94mhttps://elitklinik.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fidget.cal.com
+[+] The site [1;94mhttps://fidget.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://e-smart3.cal.com
+[+] Generic Detection results:
+[*] The site https://e-smart3.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The response was different when the request wasn't made from a browser.
+Normal response code is "200", while the response code to a modified request is "404"
+[~] Number of requests: 4
+[*] Checking https://fleetpay.cal.com
+[+] Generic Detection results:
+[*] The site https://fleetpay.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://fispan.cal.com
+[+] Generic Detection results:
+[*] The site https://fispan.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://flowmo.cal.com
+[+] The site [1;94mhttps://flowmo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://estetika.cal.com
+[+] Generic Detection results:
+[*] The site https://estetika.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://ford-scott.cal.com
+[+] The site [1;94mhttps://ford-scott.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://drderveaux.cal.com
+[+] Generic Detection results:
+[*] The site https://drderveaux.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 4
+[*] Checking https://extend.cal.com
+[+] The site [1;94mhttps://extend.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://evidenceos.cal.com
+[+] The site [1;94mhttps://evidenceos.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fountainlife.cal.com
+[+] The site [1;94mhttps://fountainlife.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://emilynixon.cal.com
+[+] The site [1;94mhttps://emilynixon.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dodo.cal.com
+[+] The site [1;94mhttps://dodo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://framework-automation-inc.cal.com
+[+] Generic Detection results:
+[*] The site https://framework-automation-inc.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://efficium-group-inc.cal.com
+[*] Checking https://flourishworld.cal.com
+[+] The site [1;94mhttps://flourishworld.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fullcircle.cal.com
+[+] The site [1;94mhttps://fullcircle.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dnafs.cal.com
+[+] The site [1;94mhttps://dnafs.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://evanscales.cal.com
+[+] The site [1;94mhttps://evanscales.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fuji.cal.com
+[+] The site [1;94mhttps://fuji.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://emundusplatform.cal.com
+[+] The site [1;94mhttps://emundusplatform.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://future-fulfilment.cal.com
+[+] The site [1;94mhttps://future-fulfilment.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://etc.cal.com
+[+] The site [1;94mhttps://etc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://gamma-ghosts.cal.com
+[+] The site [1;94mhttps://gamma-ghosts.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://gelt.cal.com
+[+] The site [1;94mhttps://gelt.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://dreava-health.cal.com
+[+] The site [1;94mhttps://dreava-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://evergreenwealth.cal.com
+[+] The site [1;94mhttps://evergreenwealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://generationlab.cal.com
+[+] The site [1;94mhttps://generationlab.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://geodefender.cal.com
+[+] The site [1;94mhttps://geodefender.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://eyesee-specialists.cal.com
+[+] The site [1;94mhttps://eyesee-specialists.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://get-peak-health.cal.com
+[+] The site [1;94mhttps://get-peak-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fella-health.cal.com
+[+] The site [1;94mhttps://fella-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://getlatest-ai.cal.com
+[+] The site [1;94mhttps://getlatest-ai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://glide.cal.com
+[+] The site [1;94mhttps://glide.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://giv.cal.com
+[+] The site [1;94mhttps://giv.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://goodcertificationgroup.cal.com
+[+] The site [1;94mhttps://goodcertificationgroup.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fabric.cal.com
+[+] The site [1;94mhttps://fabric.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://girlsfirstfinance.cal.com
+[+] The site [1;94mhttps://girlsfirstfinance.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://godesignguru.cal.com
+[+] The site [1;94mhttps://godesignguru.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://craniometrix.cal.com
+[+] The site [1;94mhttps://craniometrix.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://gokick.cal.com
+[+] The site [1;94mhttps://gokick.cal.com[0m is behind [1;96mGoogle Cloud App Armor (Google Cloud)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://gold-arrow-tax-consulting.cal.com
+[+] The site [1;94mhttps://gold-arrow-tax-consulting.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://goje.cal.com
+[+] The site [1;94mhttps://goje.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://go-ironclad.cal.com
+[+] The site [1;94mhttps://go-ironclad.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://grandsettlement.cal.com
+[+] The site [1;94mhttps://grandsettlement.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://grayscale-capital.cal.com
+[+] The site [1;94mhttps://grayscale-capital.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://greenthumb.cal.com
+[+] Generic Detection results:
+[*] The site https://greenthumb.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://gravitas-tutors.cal.com
+[+] The site [1;94mhttps://gravitas-tutors.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://green-giant-services.cal.com
+[+] The site [1;94mhttps://green-giant-services.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://groupe-mercure.cal.com
+[+] The site [1;94mhttps://groupe-mercure.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://goodmed.cal.com
+[+] The site [1;94mhttps://goodmed.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://growleads.cal.com
+[+] The site [1;94mhttps://growleads.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://growth.cal.com
+[+] The site [1;94mhttps://growth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://gtechna.cal.com
+[+] The site [1;94mhttps://gtechna.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://growth-guild.cal.com
+[+] The site [1;94mhttps://growth-guild.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://gubar.cal.com
+[+] The site [1;94mhttps://gubar.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://grow-therapy.cal.com
+[+] The site [1;94mhttps://grow-therapy.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://grupo-ns.cal.com
+[+] The site [1;94mhttps://grupo-ns.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://easton.cal.com
+[+] The site [1;94mhttps://easton.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://flowmap.cal.com
+[+] The site [1;94mhttps://flowmap.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hammerheadai.cal.com
+[+] The site [1;94mhttps://hammerheadai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://habeebautomations.cal.com
+[+] The site [1;94mhttps://habeebautomations.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://go.cal.com
+[+] The site [1;94mhttps://go.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hacket-cyber.cal.com
+[+] The site [1;94mhttps://hacket-cyber.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://experienceonsite.cal.com
+[+] Generic Detection results:
+[*] The site https://experienceonsite.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://hariom-cal-test.cal.com
+[+] The site [1;94mhttps://hariom-cal-test.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hariom-test-org.cal.com
+[+] The site [1;94mhttps://hariom-test-org.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hariomcaltest.cal.com
+[+] The site [1;94mhttps://hariomcaltest.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hardenly.cal.com
+[+] The site [1;94mhttps://hardenly.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hariomtest1org1disposable.cal.com
+[+] The site [1;94mhttps://hariomtest1org1disposable.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://henry-schein-orthodontics.cal.com
+[+] The site [1;94mhttps://henry-schein-orthodontics.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://heycare.cal.com
+[+] The site [1;94mhttps://heycare.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fairsquaremedicare.cal.com
+[+] The site [1;94mhttps://fairsquaremedicare.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://heyallergy.cal.com
+[+] The site [1;94mhttps://heyallergy.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://healthpilot.cal.com
+[+] The site [1;94mhttps://healthpilot.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://heroeshealing.cal.com
+[+] The site [1;94mhttps://heroeshealing.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://heymilo.cal.com
+[+] The site [1;94mhttps://heymilo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hedged.cal.com
+[+] Generic Detection results:
+[*] The site https://hedged.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://goblin.cal.com
+[+] The site [1;94mhttps://goblin.cal.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hezafenx.cal.com
+[+] Generic Detection results:
+[*] The site https://hezafenx.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://hiregram.cal.com
+[+] Generic Detection results:
+[*] The site https://hiregram.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://hope.cal.com
+[+] The site [1;94mhttps://hope.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hireground.cal.com
+[+] The site [1;94mhttps://hireground.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://homebinder.cal.com
+[+] The site [1;94mhttps://homebinder.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://holifya.cal.com
+[+] The site [1;94mhttps://holifya.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hormann.cal.com
+[+] The site [1;94mhttps://hormann.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hingehealth.cal.com
+[+] The site [1;94mhttps://hingehealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://house-of-savages.cal.com
+[+] The site [1;94mhttps://house-of-savages.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hugoboss.cal.com
+[+] The site [1;94mhttps://hugoboss.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hypacia.cal.com
+[+] The site [1;94mhttps://hypacia.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hung-recover.cal.com
+[+] The site [1;94mhttps://hung-recover.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://i.cal.com
+[+] The site [1;94mhttps://i.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://handbook.cal.com
+[+] The site [1;94mhttps://handbook.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hypervariant.cal.com
+[+] The site [1;94mhttps://hypervariant.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://getplume.cal.com
+[+] The site [1;94mhttps://getplume.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ietf.cal.com
+[+] The site [1;94mhttps://ietf.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ideal-digital.cal.com
+[+] The site [1;94mhttps://ideal-digital.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ilegacyeducation.cal.com
+[+] The site [1;94mhttps://ilegacyeducation.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://imperium-acquisition.cal.com
+[+] The site [1;94mhttps://imperium-acquisition.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ignyte.cal.com
+[+] The site [1;94mhttps://ignyte.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://hypepod-llc.cal.com
+[+] The site [1;94mhttps://hypepod-llc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://inference.cal.com
+[+] The site [1;94mhttps://inference.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://infisical.cal.com
+[+] The site [1;94mhttps://infisical.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://infra-one.cal.com
+[+] The site [1;94mhttps://infra-one.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://innotrue-gmbh.cal.com
+[+] The site [1;94mhttps://innotrue-gmbh.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://influentail-women.cal.com
+[+] The site [1;94mhttps://influentail-women.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://innowave-originazation.cal.com
+[+] The site [1;94mhttps://innowave-originazation.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://inno.cal.com
+[+] The site [1;94mhttps://inno.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://inquantum.cal.com
+[+] The site [1;94mhttps://inquantum.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://intervengine.cal.com
+[+] The site [1;94mhttps://intervengine.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking http://https-cal.com-team-composio1.cal.com
+[*] Checking https://fatbikeskopen.cal.com
+[+] The site [1;94mhttps://fatbikeskopen.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://itconsulting24.cal.com
+[+] The site [1;94mhttps://itconsulting24.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://iron-culture.cal.com
+[+] The site [1;94mhttps://iron-culture.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://iwg.cal.com
+[+] The site [1;94mhttps://iwg.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://isaac-health.cal.com
+[+] The site [1;94mhttps://isaac-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://interfere.cal.com
+[+] The site [1;94mhttps://interfere.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://joe-okta-prod.cal.com
+[+] The site [1;94mhttps://joe-okta-prod.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://jerecuperemonex.cal.com
+[+] The site [1;94mhttps://jerecuperemonex.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://healing-leaves-clinic.cal.com
+[+] The site [1;94mhttps://healing-leaves-clinic.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://itsecnow.cal.com
+[+] The site [1;94mhttps://itsecnow.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://jeteb.cal.com
+[+] The site [1;94mhttps://jeteb.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://joincoho.cal.com
+[+] The site [1;94mhttps://joincoho.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://joon.cal.com
+[+] The site [1;94mhttps://joon.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kassenkompassgmbh.cal.com
+[+] The site [1;94mhttps://kassenkompassgmbh.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kaseya.cal.com
+[+] The site [1;94mhttps://kaseya.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://justice-network.cal.com
+[+] The site [1;94mhttps://justice-network.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://juno.cal.com
+[+] The site [1;94mhttps://juno.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://joe-test-org.cal.com
+[+] The site [1;94mhttps://joe-test-org.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fairfax-partners-inc.cal.com
+[+] The site [1;94mhttps://fairfax-partners-inc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://keepers.cal.com
+[+] The site [1;94mhttps://keepers.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://joseph-rybit.cal.com
+[+] The site [1;94mhttps://joseph-rybit.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kamakazi-group.cal.com
+[+] The site [1;94mhttps://kamakazi-group.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kelvin.cal.com
+[+] The site [1;94mhttps://kelvin.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://keyframe-labs.cal.com
+[+] The site [1;94mhttps://keyframe-labs.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kipuhealth.cal.com
+[+] The site [1;94mhttps://kipuhealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kmc-solutions.cal.com
+[+] The site [1;94mhttps://kmc-solutions.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kluvo.cal.com
+[+] Generic Detection results:
+[*] The site https://kluvo.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://kiwitech.cal.com
+[+] The site [1;94mhttps://kiwitech.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kontango.cal.com
+[+] The site [1;94mhttps://kontango.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://knox.cal.com
+[+] The site [1;94mhttps://knox.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://latchmere.cal.com
+[+] The site [1;94mhttps://latchmere.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kelvin-dev.cal.com
+[+] The site [1;94mhttps://kelvin-dev.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kontrava.cal.com
+[+] The site [1;94mhttps://kontrava.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://joseph-psych.cal.com
+[+] The site [1;94mhttps://joseph-psych.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://fireaside.cal.com
+[+] The site [1;94mhttps://fireaside.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://leadlabbet.cal.com
+[+] The site [1;94mhttps://leadlabbet.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lance.cal.com
+[+] The site [1;94mhttps://lance.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lawcyborg.cal.com
+[+] Generic Detection results:
+[*] The site https://lawcyborg.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://lcp-media.cal.com
+[+] The site [1;94mhttps://lcp-media.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://l2-consulting.cal.com
+[+] The site [1;94mhttps://l2-consulting.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://first-bounce.cal.com
+[+] The site [1;94mhttps://first-bounce.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lc.cal.com
+[+] The site [1;94mhttps://lc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lekeh86877manupaycom.cal.com
+[+] The site [1;94mhttps://lekeh86877manupaycom.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://legalvision.cal.com
+[+] The site [1;94mhttps://legalvision.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://learningonline.cal.com
+[+] The site [1;94mhttps://learningonline.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://leger-anlagentechnik.cal.com
+[+] The site [1;94mhttps://leger-anlagentechnik.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lightfield.cal.com
+[+] The site [1;94mhttps://lightfield.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lightdash.cal.com
+[+] The site [1;94mhttps://lightdash.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lora.cal.com
+[+] The site [1;94mhttps://lora.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lisanguyen.cal.com
+[+] The site [1;94mhttps://lisanguyen.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://levelfour.cal.com
+[+] The site [1;94mhttps://levelfour.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lilac-health.cal.com
+[+] Generic Detection results:
+[*] The site https://lilac-health.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://leverly.cal.com
+[+] The site [1;94mhttps://leverly.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lodgify.cal.com
+[+] The site [1;94mhttps://lodgify.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lunabill.cal.com
+[+] The site [1;94mhttps://lunabill.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lindus-health.cal.com
+[+] The site [1;94mhttps://lindus-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lush-beats-haus-of-glam.cal.com
+[+] The site [1;94mhttps://lush-beats-haus-of-glam.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://feno-by-niox.cal.com
+[+] The site [1;94mhttps://feno-by-niox.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://love.cal.com
+[+] The site [1;94mhttps://love.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lylawyers.cal.com
+[+] The site [1;94mhttps://lylawyers.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://localposh.cal.com
+[+] The site [1;94mhttps://localposh.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://madisonparkpsych.cal.com
+[+] The site [1;94mhttps://madisonparkpsych.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lifesteps.cal.com
+[+] Generic Detection results:
+[*] The site https://lifesteps.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://luxuryinbox.cal.com
+[+] The site [1;94mhttps://luxuryinbox.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://magnetite.cal.com
+[+] The site [1;94mhttps://magnetite.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://madbrains-technologies.cal.com
+[+] The site [1;94mhttps://madbrains-technologies.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://marketer.cal.com
+[+] The site [1;94mhttps://marketer.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://maps.cal.com
+[+] The site [1;94mhttps://maps.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://maestra.cal.com
+[+] The site [1;94mhttps://maestra.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://manifestlaw.cal.com
+[+] The site [1;94mhttps://manifestlaw.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://marketerhq.cal.com
+[+] Generic Detection results:
+[*] The site https://marketerhq.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://maternahealth.cal.com
+[+] The site [1;94mhttps://maternahealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lumistry.cal.com
+[+] The site [1;94mhttps://lumistry.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://marketinc.cal.com
+[+] The site [1;94mhttps://marketinc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://erfolgspfad.cal.com
+[+] The site [1;94mhttps://erfolgspfad.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mate-it-gmbh.cal.com
+[+] Generic Detection results:
+[*] The site https://mate-it-gmbh.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://maximus-medical-group.cal.com
+[+] The site [1;94mhttps://maximus-medical-group.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mbosolutions.cal.com
+[+] The site [1;94mhttps://mbosolutions.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://marblehealth.cal.com
+[+] The site [1;94mhttps://marblehealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://medshift.cal.com
+[+] The site [1;94mhttps://medshift.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://meetdandy.cal.com
+[+] The site [1;94mhttps://meetdandy.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mbm-hospitality.cal.com
+[+] The site [1;94mhttps://mbm-hospitality.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mercury.cal.com
+[+] The site [1;94mhttps://mercury.cal.com[0m is behind [1;96mAWS Elastic Load Balancer (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://middleware.cal.com
+[+] The site [1;94mhttps://middleware.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mechanize.cal.com
+[+] The site [1;94mhttps://mechanize.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://midpoint-counseling.cal.com
+[+] Generic Detection results:
+[*] The site https://midpoint-counseling.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://fullstack.cal.com
+[+] The site [1;94mhttps://fullstack.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://g4-educacao.cal.com
+[+] The site [1;94mhttps://g4-educacao.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://livermore-outlets-orthodontics.cal.com
+[+] The site [1;94mhttps://livermore-outlets-orthodontics.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://it.cal.com
+[+] The site [1;94mhttps://it.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://grand-auto-group.cal.com
+[+] The site [1;94mhttps://grand-auto-group.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://merch.cal.com
+[+] The site [1;94mhttps://merch.cal.com[0m is behind [1;96mGoogle Cloud App Armor (Google Cloud)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://facilib.cal.com
+[+] The site [1;94mhttps://facilib.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://muni.cal.com
+[+] Generic Detection results:
+[*] The site https://muni.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://musicindustrytherapists.cal.com
+[+] The site [1;94mhttps://musicindustrytherapists.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://myako.cal.com
+[+] The site [1;94mhttps://myako.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://moonshot.cal.com
+[+] The site [1;94mhttps://moonshot.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://monsterrg.cal.com
+[+] The site [1;94mhttps://monsterrg.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nicolascava.cal.com
+[+] The site [1;94mhttps://nicolascava.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://notaro-epstein.cal.com
+[+] The site [1;94mhttps://notaro-epstein.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nanzan-university-apaie2026.cal.com
+[+] The site [1;94mhttps://nanzan-university-apaie2026.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nextvisit.cal.com
+[+] The site [1;94mhttps://nextvisit.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nira-health.cal.com
+[+] The site [1;94mhttps://nira-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mintlify.cal.com
+[+] Generic Detection results:
+[*] The site https://mintlify.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://nirva.cal.com
+[+] Generic Detection results:
+[*] The site https://nirva.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://million-dollar-sellers.cal.com
+[+] The site [1;94mhttps://million-dollar-sellers.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mvp-launch.cal.com
+[+] The site [1;94mhttps://mvp-launch.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nelia.cal.com
+[+] The site [1;94mhttps://nelia.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://neuralmux.cal.com
+[+] The site [1;94mhttps://neuralmux.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://northern-star-residential-cleaning.cal.com
+[+] The site [1;94mhttps://northern-star-residential-cleaning.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://notionpartners.cal.com
+[+] The site [1;94mhttps://notionpartners.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ninjastudio.cal.com
+[+] The site [1;94mhttps://ninjastudio.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://navi.cal.com
+[+] The site [1;94mhttps://navi.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nails-by-nat.cal.com
+[+] The site [1;94mhttps://nails-by-nat.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://monarchcfo-bookkeeping-llc.cal.com
+[+] The site [1;94mhttps://monarchcfo-bookkeeping-llc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://numan.cal.com
+[+] The site [1;94mhttps://numan.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://numuw.cal.com
+[+] The site [1;94mhttps://numuw.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://noui.cal.com
+[+] The site [1;94mhttps://noui.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://novalinqs-ai.cal.com
+[+] The site [1;94mhttps://novalinqs-ai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://numi.cal.com
+[+] The site [1;94mhttps://numi.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nuvia.cal.com
+[+] The site [1;94mhttps://nuvia.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://my-virtual-tax-shop.cal.com
+[+] The site [1;94mhttps://my-virtual-tax-shop.cal.com[0m is behind [1;96mSquarespace (Squarespace)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://numitech.cal.com
+[+] The site [1;94mhttps://numitech.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://obtino.cal.com
+[+] The site [1;94mhttps://obtino.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://obsidiantech.cal.com
+[+] The site [1;94mhttps://obsidiantech.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://o11.cal.com
+[+] The site [1;94mhttps://o11.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nuvaliving.cal.com
+[+] The site [1;94mhttps://nuvaliving.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://onestudyteam.cal.com
+[+] The site [1;94mhttps://onestudyteam.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://onlyclippers.cal.com
+[+] The site [1;94mhttps://onlyclippers.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://olympus-development-company.cal.com
+[+] The site [1;94mhttps://olympus-development-company.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://opened.cal.com
+[+] The site [1;94mhttps://opened.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://opalite-health.cal.com
+[+] The site [1;94mhttps://opalite-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://irlyapp.cal.com
+[+] Generic Detection results:
+[*] The site https://irlyapp.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "404", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://onegrep.cal.com
+[+] The site [1;94mhttps://onegrep.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://onmyway.cal.com
+[+] The site [1;94mhttps://onmyway.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://openfunnels.cal.com
+[+] The site [1;94mhttps://openfunnels.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking http://offgrid.ventures.cal.com
+[*] Checking https://nuvitalab.cal.com
+[+] The site [1;94mhttps://nuvitalab.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://opulent-horizons.cal.com
+[+] The site [1;94mhttps://opulent-horizons.cal.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://oviva.cal.com
+[+] The site [1;94mhttps://oviva.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ourritual.cal.com
+[+] The site [1;94mhttps://ourritual.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://orquestohealth.cal.com
+[+] The site [1;94mhttps://orquestohealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://outsourced-doers.cal.com
+[+] The site [1;94mhttps://outsourced-doers.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://paaq.cal.com
+[+] The site [1;94mhttps://paaq.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://otl.cal.com
+[+] The site [1;94mhttps://otl.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://outreachgenius.cal.com
+[+] The site [1;94mhttps://outreachgenius.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://patientq.cal.com
+[+] The site [1;94mhttps://patientq.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mobilistics.cal.com
+[+] Generic Detection results:
+[*] The site https://mobilistics.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://outlier-group.cal.com
+[+] The site [1;94mhttps://outlier-group.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pangeaplatform.cal.com
+[+] The site [1;94mhttps://pangeaplatform.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://panxo.cal.com
+[+] The site [1;94mhttps://panxo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://paylidify.cal.com
+[+] The site [1;94mhttps://paylidify.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://peak.cal.com
+[+] The site [1;94mhttps://peak.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://peggyscontent.cal.com
+[+] The site [1;94mhttps://peggyscontent.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://people-street.cal.com
+[+] The site [1;94mhttps://people-street.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://paypal.cal.com
+[+] The site [1;94mhttps://paypal.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pharmacyhub.cal.com
+[+] Generic Detection results:
+[*] The site https://pharmacyhub.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://peakhealth.cal.com
+[+] Generic Detection results:
+[*] The site https://peakhealth.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://pick-my-brain.cal.com
+[+] The site [1;94mhttps://pick-my-brain.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://perspectivefood.cal.com
+[+] The site [1;94mhttps://perspectivefood.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pinnacleoddsdropper.cal.com
+[+] The site [1;94mhttps://pinnacleoddsdropper.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pimpup.cal.com
+[+] The site [1;94mhttps://pimpup.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://parentpath.cal.com
+[+] The site [1;94mhttps://parentpath.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking http://outreachgenius.ai.cal.com
+[*] Checking https://pingbase.cal.com
+[+] The site [1;94mhttps://pingbase.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://plivo.cal.com
+[+] The site [1;94mhttps://plivo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://physics.cal.com
+[+] The site [1;94mhttps://physics.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://planetscale.cal.com
+[+] The site [1;94mhttps://planetscale.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://piiqspace.cal.com
+[+] The site [1;94mhttps://piiqspace.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pitstop-org.cal.com
+[+] The site [1;94mhttps://pitstop-org.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pillar.cal.com
+[+] The site [1;94mhttps://pillar.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://kiaora.cal.com
+[+] The site [1;94mhttps://kiaora.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://lawccess.cal.com
+[+] The site [1;94mhttps://lawccess.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://plura.cal.com
+[+] The site [1;94mhttps://plura.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pluraai.cal.com
+[+] The site [1;94mhttps://pluraai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://posthog.cal.com
+[+] The site [1;94mhttps://posthog.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://prea.cal.com
+[+] The site [1;94mhttps://prea.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pm3.cal.com
+[+] The site [1;94mhttps://pm3.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ploono.cal.com
+[+] The site [1;94mhttps://ploono.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://premium-vault.cal.com
+[+] The site [1;94mhttps://premium-vault.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://press8.cal.com
+[+] The site [1;94mhttps://press8.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://priority-rollfi.cal.com
+[+] The site [1;94mhttps://priority-rollfi.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://predicate.cal.com
+[+] Generic Detection results:
+[*] The site https://predicate.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://problemshared.cal.com
+[+] The site [1;94mhttps://problemshared.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://progyny-global-gmbh.cal.com
+[+] The site [1;94mhttps://progyny-global-gmbh.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://proto-clinic-staging.cal.com
+[+] The site [1;94mhttps://proto-clinic-staging.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://proto-clinic.cal.com
+[+] The site [1;94mhttps://proto-clinic.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://powered-alliance.cal.com
+[+] The site [1;94mhttps://powered-alliance.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://prospects-international.cal.com
+[+] The site [1;94mhttps://prospects-international.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://q-cue-inc.cal.com
+[+] The site [1;94mhttps://q-cue-inc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pro-tradie.cal.com
+[+] The site [1;94mhttps://pro-tradie.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pulse.cal.com
+[+] Generic Detection results:
+[*] The site https://pulse.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://quartr-app.cal.com
+[+] The site [1;94mhttps://quartr-app.cal.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://operator-labs-inc.cal.com
+[+] The site [1;94mhttps://operator-labs-inc.cal.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://pumfleet.cal.com
+[+] The site [1;94mhttps://pumfleet.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://prominence.cal.com
+[+] The site [1;94mhttps://prominence.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://quentn.cal.com
+[+] The site [1;94mhttps://quentn.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://quicknode.cal.com
+[+] The site [1;94mhttps://quicknode.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://range-medical.cal.com
+[+] The site [1;94mhttps://range-medical.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://providesure.cal.com
+[+] The site [1;94mhttps://providesure.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://re-bath.cal.com
+[+] The site [1;94mhttps://re-bath.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://quickslot.cal.com
+[+] The site [1;94mhttps://quickslot.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://realitec.cal.com
+[+] The site [1;94mhttps://realitec.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://raiqahealth.cal.com
+[+] The site [1;94mhttps://raiqahealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://rankingonai.cal.com
+[+] The site [1;94mhttps://rankingonai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ramp.cal.com
+[+] The site [1;94mhttps://ramp.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://intern.cal.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://realityfence.cal.com
+[+] The site [1;94mhttps://realityfence.cal.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://retentionexpress.cal.com
+[+] The site [1;94mhttps://retentionexpress.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://respondo.cal.com
+[+] The site [1;94mhttps://respondo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://rocket-lab.cal.com
+[+] The site [1;94mhttps://rocket-lab.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://replyblue.cal.com
+[+] The site [1;94mhttps://replyblue.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nirvahealth.cal.com
+[+] The site [1;94mhttps://nirvahealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://modelml.cal.com
+[+] The site [1;94mhttps://modelml.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mind-stillness-mental-health-care.cal.com
+[+] The site [1;94mhttps://mind-stillness-mental-health-care.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://resonance-psych.cal.com
+[+] The site [1;94mhttps://resonance-psych.cal.com[0m is behind [1;96mSquarespace (Squarespace)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://neuryn.cal.com
+[+] The site [1;94mhttps://neuryn.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mindboost-neuropsychological-services.cal.com
+[+] The site [1;94mhttps://mindboost-neuropsychological-services.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://rolai.cal.com
+[+] The site [1;94mhttps://rolai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://rise-research-team.cal.com
+[+] The site [1;94mhttps://rise-research-team.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nomebon265.cal.com
+[+] The site [1;94mhttps://nomebon265.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://rel8hub.cal.com
+[+] The site [1;94mhttps://rel8hub.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://rollups.cal.com
+[+] The site [1;94mhttps://rollups.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ribbon.cal.com
+[+] The site [1;94mhttps://ribbon.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://neis-org-test.cal.com
+[+] The site [1;94mhttps://neis-org-test.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://mommates-beta.cal.com
+[+] The site [1;94mhttps://mommates-beta.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nerds-at-work.cal.com
+[+] The site [1;94mhttps://nerds-at-work.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://regbase.cal.com
+[+] The site [1;94mhttps://regbase.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://roundone.cal.com
+[+] The site [1;94mhttps://roundone.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://rimo.cal.com
+[+] The site [1;94mhttps://rimo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://renttherunway.cal.com
+[+] The site [1;94mhttps://renttherunway.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://revealio.cal.com
+[+] The site [1;94mhttps://revealio.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nevly-holdings-corp.cal.com
+[+] The site [1;94mhttps://nevly-holdings-corp.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://reify-health.cal.com
+[+] The site [1;94mhttps://reify-health.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://no-ink.cal.com
+[+] The site [1;94mhttps://no-ink.cal.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://rthdrsty.cal.com
+[+] The site [1;94mhttps://rthdrsty.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://roverce.cal.com
+[+] The site [1;94mhttps://roverce.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://rho.cal.com
+[+] The site [1;94mhttps://rho.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://nestorlabs.cal.com
+[+] The site [1;94mhttps://nestorlabs.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://reap-financial.cal.com
+[+] The site [1;94mhttps://reap-financial.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://reveal-io.cal.com
+[+] The site [1;94mhttps://reveal-io.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://northgate-financial.cal.com
+[+] Generic Detection results:
+[*] The site https://northgate-financial.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://russell-alexander-family-lawyers.cal.com
+[+] The site [1;94mhttps://russell-alexander-family-lawyers.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://resident.cal.com
+[+] The site [1;94mhttps://resident.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://recon-infosec.cal.com
+[+] The site [1;94mhttps://recon-infosec.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://reno-consulting.cal.com
+[+] The site [1;94mhttps://reno-consulting.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://rezerwacja.cal.com
+[+] Generic Detection results:
+[*] The site https://rezerwacja.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://reservemyloan.cal.com
+[+] The site [1;94mhttps://reservemyloan.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sbc-financial.cal.com
+[+] The site [1;94mhttps://sbc-financial.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sanare.cal.com
+[+] The site [1;94mhttps://sanare.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sales-ask.cal.com
+[+] The site [1;94mhttps://sales-ask.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://saha.cal.com
+[+] The site [1;94mhttps://saha.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sales-chowder.cal.com
+[+] The site [1;94mhttps://sales-chowder.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sandai-companies.cal.com
+[+] The site [1;94mhttps://sandai-companies.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://roots-global.cal.com
+[+] The site [1;94mhttps://roots-global.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://scalar.cal.com
+[+] The site [1;94mhttps://scalar.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://safelyai.cal.com
+[+] The site [1;94mhttps://safelyai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sarah-lucarellio.cal.com
+[+] The site [1;94mhttps://sarah-lucarellio.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://scaletrack.cal.com
+[+] The site [1;94mhttps://scaletrack.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://secretformula.cal.com
+[+] The site [1;94mhttps://secretformula.cal.com[0m is behind [1;96mSquarespace (Squarespace)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://seamless.cal.com
+[+] The site [1;94mhttps://seamless.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sebach.cal.com
+[+] The site [1;94mhttps://sebach.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://scottland.cal.com
+[+] The site [1;94mhttps://scottland.cal.com[0m is behind [1;96mLiteSpeed (LiteSpeed Technologies)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://service-it.cal.com
+[+] The site [1;94mhttps://service-it.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking http://saturncloud.io.cal.com
+[*] Checking https://savelink.cal.com
+[+] The site [1;94mhttps://savelink.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://schoolism.cal.com
+[+] The site [1;94mhttps://schoolism.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sells.cal.com
+[+] The site [1;94mhttps://sells.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://security.cal.com
+[+] The site [1;94mhttps://security.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://shedrx.cal.com
+[+] The site [1;94mhttps://shedrx.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://refer.cal.com
+[+] The site [1;94mhttps://refer.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sessionary.cal.com
+[+] The site [1;94mhttps://sessionary.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://shadesoftexas.cal.com
+[+] The site [1;94mhttps://shadesoftexas.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sent.cal.com
+[+] The site [1;94mhttps://sent.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://seuthes.cal.com
+[+] The site [1;94mhttps://seuthes.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sevenpowermoves.cal.com
+[+] The site [1;94mhttps://sevenpowermoves.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://shimmer.cal.com
+[+] The site [1;94mhttps://shimmer.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://shor.cal.com
+[+] Generic Detection results:
+[*] The site https://shor.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://shannaai.cal.com
+[+] The site [1;94mhttps://shannaai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://siggymd.cal.com
+[+] The site [1;94mhttps://siggymd.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://simplifiedsolutionsntx.cal.com
+[+] The site [1;94mhttps://simplifiedsolutionsntx.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://signwow.cal.com
+[+] The site [1;94mhttps://signwow.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://selorahomes.cal.com
+[+] The site [1;94mhttps://selorahomes.cal.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sistem.cal.com
+[+] The site [1;94mhttps://sistem.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://skybot.cal.com
+[+] The site [1;94mhttps://skybot.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://shespace.cal.com
+[+] The site [1;94mhttps://shespace.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://siwi.cal.com
+[+] The site [1;94mhttps://siwi.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://small-malay.cal.com
+[+] The site [1;94mhttps://small-malay.cal.com[0m is behind [1;96mSquarespace (Squarespace)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://solinfo-group.cal.com
+[+] The site [1;94mhttps://solinfo-group.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sonarahealth.cal.com
+[+] The site [1;94mhttps://sonarahealth.cal.com[0m is behind [1;96mSquarespace (Squarespace)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://solis.cal.com
+[+] The site [1;94mhttps://solis.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://smartcat.cal.com
+[+] The site [1;94mhttps://smartcat.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://speedtrain.cal.com
+[+] The site [1;94mhttps://speedtrain.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sp0tlfy.cal.com
+[+] The site [1;94mhttps://sp0tlfy.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://snoots.cal.com
+[+] The site [1;94mhttps://snoots.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sonia.cal.com
+[+] The site [1;94mhttps://sonia.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sponge.cal.com
+[+] The site [1;94mhttps://sponge.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://steadyhand.cal.com
+[+] The site [1;94mhttps://steadyhand.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://spel.cal.com
+[+] The site [1;94mhttps://spel.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://social-bloom.cal.com
+[+] The site [1;94mhttps://social-bloom.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://squid.cal.com
+[+] The site [1;94mhttps://squid.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://s-club.cal.com
+[+] The site [1;94mhttps://s-club.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://status.cal.com
+[+] The site [1;94mhttps://status.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://stonebond.cal.com
+[+] The site [1;94mhttps://stonebond.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://stoke.cal.com
+[+] The site [1;94mhttps://stoke.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://st.cal.com
+[+] The site [1;94mhttps://st.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sublime-security.cal.com
+[+] The site [1;94mhttps://sublime-security.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://stonealgo.cal.com
+[+] The site [1;94mhttps://stonealgo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://superchat.cal.com
+[+] The site [1;94mhttps://superchat.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sunspace-solar-gmbh.cal.com
+[+] The site [1;94mhttps://sunspace-solar-gmbh.cal.com[0m is behind [1;96mGoogle Cloud App Armor (Google Cloud)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://suassunaglobal.cal.com
+[+] The site [1;94mhttps://suassunaglobal.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://superpowers.cal.com
+[+] The site [1;94mhttps://superpowers.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://subtotal.cal.com
+[+] The site [1;94mhttps://subtotal.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://susan1215cosscom.cal.com
+[+] The site [1;94mhttps://susan1215cosscom.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sunsaveuk.cal.com
+[+] The site [1;94mhttps://sunsaveuk.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://svg.cal.com
+[+] The site [1;94mhttps://svg.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://superpractice.cal.com
+[+] Generic Detection results:
+[*] The site https://superpractice.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://syncadoc.cal.com
+[*] Checking https://synesai.cal.com
+[+] The site [1;94mhttps://synesai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://synthropiaplatform.cal.com
+[+] The site [1;94mhttps://synthropiaplatform.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tabteam.cal.com
+[*] Checking https://synth.cal.com
+[+] The site [1;94mhttps://synth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tactill.cal.com
+[+] The site [1;94mhttps://tactill.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://system-sokrates.cal.com
+[+] The site [1;94mhttps://system-sokrates.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://susan86heycom.cal.com
+[+] The site [1;94mhttps://susan86heycom.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tbh.cal.com
+[+] The site [1;94mhttps://tbh.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://talia.cal.com
+[+] The site [1;94mhttps://talia.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://systemichelp.cal.com
+[+] Generic Detection results:
+[*] The site https://systemichelp.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://tesco.cal.com
+[+] The site [1;94mhttps://tesco.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://techastris.cal.com
+[+] The site [1;94mhttps://techastris.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://talentpoolsplatform.cal.com
+[*] Checking https://testflow.cal.com
+[+] The site [1;94mhttps://testflow.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://testing-acme-new.cal.com
+[+] The site [1;94mhttps://testing-acme-new.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://testlink-example.cal.com
+[+] The site [1;94mhttps://testlink-example.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tchat-n-sign.cal.com
+[+] The site [1;94mhttps://tchat-n-sign.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://testing.cal.com
+[+] The site [1;94mhttps://testing.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tenanttickets-platform.cal.com
+[+] The site [1;94mhttps://tenanttickets-platform.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://talenthq.cal.com
+[+] The site [1;94mhttps://talenthq.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://telebuds.cal.com
+[+] The site [1;94mhttps://telebuds.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://terminaluse.cal.com
+[+] The site [1;94mhttps://terminaluse.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://quote.cal.com
+[+] The site [1;94mhttps://quote.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://sms.cal.com
+[+] The site [1;94mhttps://sms.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://teach.cal.com
+[+] The site [1;94mhttps://teach.cal.com[0m is behind [1;96mGoogle Cloud App Armor (Google Cloud)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://speed.cal.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://tngnz.cal.com
+[+] The site [1;94mhttps://tngnz.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://the-karas-group.cal.com
+[+] The site [1;94mhttps://the-karas-group.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://thrivemidlifemedicine.cal.com
+[+] The site [1;94mhttps://thrivemidlifemedicine.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://testlink2-example.cal.com
+[+] The site [1;94mhttps://testlink2-example.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://trypennie.cal.com
+[+] The site [1;94mhttps://trypennie.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://transload.cal.com
+[+] The site [1;94mhttps://transload.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://trick.cal.com
+[+] Generic Detection results:
+[*] The site https://trick.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://training-beauty-beyond.cal.com
+[+] The site [1;94mhttps://training-beauty-beyond.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://titanspear-agency.cal.com
+[+] The site [1;94mhttps://titanspear-agency.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://trama.cal.com
+[+] The site [1;94mhttps://trama.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://travelersfinancial.cal.com
+[+] The site [1;94mhttps://travelersfinancial.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tivita.cal.com
+[+] The site [1;94mhttps://tivita.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://texas.cal.com
+[+] The site [1;94mhttps://texas.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://throxy.cal.com
+[+] The site [1;94mhttps://throxy.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tuttoterra.cal.com
+[+] The site [1;94mhttps://tuttoterra.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://the-scaling-department-co.cal.com
+[+] The site [1;94mhttps://the-scaling-department-co.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://testlink3-example.cal.com
+[+] The site [1;94mhttps://testlink3-example.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://the-golf-station.cal.com
+[+] The site [1;94mhttps://the-golf-station.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tsenta.cal.com
+[+] The site [1;94mhttps://tsenta.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://the-pmo-perspective-by-gatewood-partners.cal.com
+[+] The site [1;94mhttps://the-pmo-perspective-by-gatewood-partners.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://the-personnel-store.cal.com
+[+] The site [1;94mhttps://the-personnel-store.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://topo.cal.com
+[+] The site [1;94mhttps://topo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://toddleapp.cal.com
+[+] The site [1;94mhttps://toddleapp.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://theweddinggroup.cal.com
+[+] The site [1;94mhttps://theweddinggroup.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://thoughtly-dev.cal.com
+[*] Checking https://tuateam.cal.com
+[+] The site [1;94mhttps://tuateam.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://thriveglobal.cal.com
+[+] The site [1;94mhttps://thriveglobal.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tonik.cal.com
+[+] The site [1;94mhttps://tonik.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://total-platform.cal.com
+[+] The site [1;94mhttps://total-platform.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tmrw.cal.com
+[+] The site [1;94mhttps://tmrw.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tstwflow.cal.com
+[+] The site [1;94mhttps://tstwflow.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://thinksystem.cal.com
+[+] The site [1;94mhttps://thinksystem.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://totalplacement.cal.com
+[+] The site [1;94mhttps://totalplacement.cal.com[0m is behind [1;96mLiteSpeed (LiteSpeed Technologies)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://thera.cal.com
+[+] The site [1;94mhttps://thera.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tramatm.cal.com
+[+] The site [1;94mhttps://tramatm.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tutor.cal.com
+[+] The site [1;94mhttps://tutor.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ui.cal.com
+[+] The site [1;94mhttps://ui.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://tilly.cal.com
+[+] The site [1;94mhttps://tilly.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://urohardformen.cal.com
+[+] The site [1;94mhttps://urohardformen.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ukkofi.cal.com
+[+] The site [1;94mhttps://ukkofi.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://unloc.cal.com
+[+] The site [1;94mhttps://unloc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://unkey.cal.com
+[+] The site [1;94mhttps://unkey.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://uptool.cal.com
+[+] Generic Detection results:
+[*] The site https://uptool.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://vantagepointconsult.cal.com
+[+] The site [1;94mhttps://vantagepointconsult.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vantage-outbound.cal.com
+[+] The site [1;94mhttps://vantage-outbound.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://valerian.cal.com
+[+] The site [1;94mhttps://valerian.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://van-metre.cal.com
+[+] The site [1;94mhttps://van-metre.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://variant-group.cal.com
+[+] The site [1;94mhttps://variant-group.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://upstix.cal.com
+[+] The site [1;94mhttps://upstix.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://venning.cal.com
+[+] The site [1;94mhttps://venning.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://unederm.cal.com
+[+] The site [1;94mhttps://unederm.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://uspm.cal.com
+[+] The site [1;94mhttps://uspm.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://venato-service-rp.cal.com
+[+] The site [1;94mhttps://venato-service-rp.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vela.cal.com
+[+] The site [1;94mhttps://vela.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://verialabs.cal.com
+[+] The site [1;94mhttps://verialabs.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vector-for-good.cal.com
+[+] The site [1;94mhttps://vector-for-good.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vekstsystem-as.cal.com
+[+] Generic Detection results:
+[*] The site https://vekstsystem-as.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://unisson.cal.com
+[+] The site [1;94mhttps://unisson.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vercel.cal.com
+[+] Generic Detection results:
+[*] The site https://vercel.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://veradermics.cal.com
+[+] The site [1;94mhttps://veradermics.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vamstar.cal.com
+[+] Generic Detection results:
+[*] The site https://vamstar.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The response was different when the request wasn't made from a browser.
+Normal response code is "200", while the response code to a modified request is "406"
+[~] Number of requests: 4
+[*] Checking https://vibeco.cal.com
+[+] The site [1;94mhttps://vibeco.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vezzi.cal.com
+[+] The site [1;94mhttps://vezzi.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vid.cal.com
+[+] The site [1;94mhttps://vid.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vikand.cal.com
+[+] Generic Detection results:
+[*] The site https://vikand.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://viralux.cal.com
+[+] The site [1;94mhttps://viralux.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://virtahealth.cal.com
+[*] Checking https://vibeflow.cal.com
+[+] The site [1;94mhttps://vibeflow.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://viturahealth.cal.com
+[+] The site [1;94mhttps://viturahealth.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vittae360.cal.com
+[+] The site [1;94mhttps://vittae360.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://vocaris.cal.com
+[+] Generic Detection results:
+[*] The site https://vocaris.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://warespace.cal.com
+[+] The site [1;94mhttps://warespace.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://wearetonica.cal.com
+[+] The site [1;94mhttps://wearetonica.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://voltxenergy.cal.com
+[+] The site [1;94mhttps://voltxenergy.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://virtahealth-sandbox.cal.com
+[+] The site [1;94mhttps://virtahealth-sandbox.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://webrenew.cal.com
+[+] Generic Detection results:
+[*] The site https://webrenew.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://watchsystems.cal.com
+[+] The site [1;94mhttps://watchsystems.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://wealthreach.cal.com
+[+] The site [1;94mhttps://wealthreach.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://voice-prompts-ai.cal.com
+[+] The site [1;94mhttps://voice-prompts-ai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://wegotogether-coaching.cal.com
+[+] The site [1;94mhttps://wegotogether-coaching.cal.com[0m is behind [1;96mCloudfront (Amazon)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://welldium.cal.com
+[+] The site [1;94mhttps://welldium.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://wintermarch.cal.com
+[+] Generic Detection results:
+[*] The site https://wintermarch.cal.com seems to be behind a WAF or some sort of security solution
+[~] Reason: The server returns a different response code when an attack string is used.
+Normal response code is "200", while the response code to cross-site scripting attack is "403"
+[~] Number of requests: 5
+[*] Checking https://withglimmer.cal.com
+[+] The site [1;94mhttps://withglimmer.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://werk.cal.com
+[+] The site [1;94mhttps://werk.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://website.cal.com
+[+] The site [1;94mhttps://website.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://waterstream.cal.com
+[+] The site [1;94mhttps://waterstream.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://what-about-ai.cal.com
+[+] The site [1;94mhttps://what-about-ai.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://whiteglovemd.cal.com
+[+] The site [1;94mhttps://whiteglovemd.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://whatsyourcard.cal.com
+[+] The site [1;94mhttps://whatsyourcard.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://workmate.cal.com
+[+] The site [1;94mhttps://workmate.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://within.cal.com
+[+] The site [1;94mhttps://within.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://wizbii.cal.com
+[+] The site [1;94mhttps://wizbii.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://wmu.cal.com
+[+] The site [1;94mhttps://wmu.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://studio.cal.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://the-lanby.cal.com
+[+] The site [1;94mhttps://the-lanby.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://soulcaredashboard.cal.com
+[+] The site [1;94mhttps://soulcaredashboard.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://workback.cal.com
+[+] The site [1;94mhttps://workback.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://workplace-support.cal.com
+[+] The site [1;94mhttps://workplace-support.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://weryo.cal.com
+[+] The site [1;94mhttps://weryo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://wyndly.cal.com
+[+] The site [1;94mhttps://wyndly.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://wtit.cal.com
+[+] The site [1;94mhttps://wtit.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://yesinc.cal.com
+[+] The site [1;94mhttps://yesinc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://xlabs.cal.com
+[+] The site [1;94mhttps://xlabs.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://zapiio.cal.com
+[+] The site [1;94mhttps://zapiio.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://yoddhalab.cal.com
+[+] The site [1;94mhttps://yoddhalab.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://zappi-it.cal.com
+[+] The site [1;94mhttps://zappi-it.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://usekofi.cal.com
+[+] The site [1;94mhttps://usekofi.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://y-equals-x-inc.cal.com
+[+] The site [1;94mhttps://y-equals-x-inc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://ziqr.cal.com
+[+] The site [1;94mhttps://ziqr.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://zionak.cal.com
+[+] The site [1;94mhttps://zionak.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://zomars.cal.com
+[+] The site [1;94mhttps://zomars.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://zeeda.cal.com
+[+] The site [1;94mhttps://zeeda.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://zatanna.cal.com
+[+] The site [1;94mhttps://zatanna.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://virta.speed.cal.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://zumaflow.cal.com
+[+] The site [1;94mhttps://zumaflow.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://valuo.cal.com
+[+] The site [1;94mhttps://valuo.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://support.fabical.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://wrapped.cal.com
+[+] Generic Detection results:
+[-] No WAF detected by the generic detection
+[~] Number of requests: 7
+[*] Checking https://dtc.cal.com
+[+] The site [1;94mhttps://dtc.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
+[*] Checking https://everlab-au.cal.com
+[+] The site [1;94mhttps://everlab-au.cal.com[0m is behind [1;96mCloudflare (Cloudflare Inc.)[0m WAF.
+[~] Number of requests: 2
