@@ -1,3 +1,9 @@
+#### removal of all tools including python's httpx.
+#### installation of all tools.
+#### installation of python library requests.
+#### go bin path export in bashrc n zshrc.
+#### figure out that ghost bug of subfinder.
+
 import subprocess as sp
 
 TOOLS = [
@@ -38,7 +44,7 @@ TOOLS = [
     },
     {
         "name": "amass",
-        "cmd": "go install -v github.com/owasp-amass/amass/v4/...@master",
+        "cmd": "go install github.com/owasp-amass/amass/v4/...@master",
         "extra": ""
     },
     {
@@ -61,6 +67,7 @@ def installer(config):
 for t in TOOLS:
     installer(t)
 
-#### Wappylyzer : Sign up for free to get 50 technology lookups every month.
-#### Shodan : Paid Subscription for API
-#### Censys : Working on it
+
+
+
+'''
