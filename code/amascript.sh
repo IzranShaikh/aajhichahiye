@@ -222,4 +222,4 @@ fi
 echo ""
 echo "✅ Script finished successfully!"
 
-# mv cidr.txt asn.txt domains_with_ips.txt all_known_ips.txt all_ips.txt domainless_ips.txt "$output_folder"
+mv "$REPORT_FILE" cidr_list.txt asn_list.txt all_domains_with_ips.txt known_ips.txt all_possible_ips.txt domainless_ips.txt "$2"
