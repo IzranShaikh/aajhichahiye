@@ -53,21 +53,22 @@ TOOLS = {
         "output": "lister.txt",
         "blocking": False
     },
-    "amass": {
-        "cmd": lambda org_name: ["./amasscript.sh", org_name, OUTPUT_DIR],
-        "output": "amassstdout.txt",
-        "blocking": False
-    },
     "httpx": {
         "cmd": lambda _: ["httpx", "-silent", 
-                          #"-p", "1-65535", 
+                          "-p", "1-65535", 
                           "-l", OUTPUT_DIR / "subdomains.txt"],
         "output": "live.txt",
         "blocking": True
     },
+    "amass":{
+        "cmd": lambda domain: ["./amascript.sh", 
+                          domain, OUTPUT_DIR],
+        "output": "amass.txt",
+        "blocking": False
+    },
     "wafw00f": {
         "cmd": lambda _: ["wafw00f", "-i", OUTPUT_DIR / "live.txt", 
-                          "-f", "json", 
+                          "-f", "json",
                           "-o", OUTPUT_DIR / "wafw00f.json"],
         "output": "wafw00f.txt",
         "blocking": False
@@ -75,7 +76,7 @@ TOOLS = {
     "nmap": {
         "cmd": lambda _: ["nmap", "-iL", OUTPUT_DIR / "ns_live.txt", 
                           "--script", "http-waf-detect", 
-                          "-p80,443,8080,8443", "-sV",
+                          "-p-", "-sV",
                           "-oX", OUTPUT_DIR / "nmap.xml"],
         "output": "nmap.txt",
         "blocking": True
@@ -397,9 +398,11 @@ def nse_scan(input_xml, output_file):
                 "nmap",
                 "-Pn",
                 "-sCV",
+                "--script-timeout",
+                "5m",
                 f"-p{ports}",
                 "--script",
-                "discovery,vuln,exploit",
+                "default,safe,vuln,discovery,auth,brute,exploit",
                 target,
             ]
             outfile.write(f"\n\n----- Scanning {target} on ports {ports} -----\n")
@@ -480,31 +483,6 @@ def remove_scheme(input_file, output_file):
 #     print(f"enabled IPs: {len(enabled_map)}")
 #     print(f"disabled IPs: {len(disabled_map)}")
 
-def split_waf_results(input_file):
-    with open(input_file, "r") as f:
-        data = json.load(f)
-    waf_enabled = set()
-    waf_disabled = set()
-    for entry in data:
-        url = entry.get("url")
-        detected = entry.get("detected", False)
-        if not url:
-            continue
-        normalized = normalize_domain(url)
-        if not normalized:
-            continue
-        if detected:
-            waf_enabled.add(normalized)
-        else:
-            waf_disabled.add(normalized)
-    with open(OUTPUT_DIR / "waf_enabled.txt", "w") as f:
-        for url in sorted(waf_enabled):
-            f.write(url + "\n")
-    with open(OUTPUT_DIR / "waf_disabled.txt", "w") as f:
-        for url in sorted(waf_disabled):
-            f.write(url + "\n")
-    print(f"WAF enabled: {len(waf_enabled)}")
-    print(f"WAF disabled: {len(waf_disabled)}")
 
 # -------------------------
 # COMMAND RUNNER 
@@ -627,7 +605,6 @@ def run_pipeline(domain):
     if nextup["blocking"]:
         proc.wait()
         print(f"[+] {name} done")
-    # split_waf_results(OUTPUT_DIR / "wafw00f.json")
     remove_scheme(OUTPUT_DIR / "live.txt", OUTPUT_DIR / "ns_live.txt")
 
     # -------------------------
