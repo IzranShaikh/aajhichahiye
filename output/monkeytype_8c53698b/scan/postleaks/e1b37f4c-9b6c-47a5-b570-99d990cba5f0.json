@@ -1,0 +1,20 @@
+{
+  "id": "e1b37f4c-9b6c-47a5-b570-99d990cba5f0",
+  "name": "http://localhost:8080/monkeys-money/revenues?userId=1",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "http://localhost:8080/monkeys-money/revenues?userId=1",
+  "queryParams": [
+    {
+      "key": "userId",
+      "value": "1",
+      "type": "text",
+      "enabled": true,
+      "equals": true
+    }
+  ],
+  "headerData": []
+}

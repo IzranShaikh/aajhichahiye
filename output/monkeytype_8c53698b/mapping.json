@@ -1,0 +1,14 @@
+{
+  "172.67.69.61": [
+    "api.monkeytype.com"
+  ],
+  "104.26.0.151": [
+    "auth.monkeytype.com",
+    "fingermap.monkeytype.com"
+  ],
+  "104.26.1.151": [
+    "dev.monkeytype.com",
+    "monkeytype.com",
+    "redirects.monkeytype.com"
+  ]
+}

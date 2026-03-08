@@ -1,0 +1,209 @@
+[
+    {
+        "api.monkeytype.com": {
+            "ip": "172.67.69.61",
+            "status_code": 200,
+            "ports": [
+                {
+                    "service": "http",
+                    "port": 80,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 443,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "http",
+                    "port": 8080,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 8443,
+                    "version": "Cloudflare http proxy"
+                }
+            ],
+            "waf": "cloudflare",
+            "tech_stack": [
+                "Cloudflare",
+                "HSTS"
+            ]
+        }
+    },
+    {
+        "auth.monkeytype.com": {
+            "ip": "104.26.0.151",
+            "status_code": 404,
+            "ports": [
+                {
+                    "service": "http",
+                    "port": 80,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 443,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "http",
+                    "port": 8080,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 8443,
+                    "version": "Cloudflare http proxy"
+                }
+            ],
+            "waf": "cloudflare",
+            "tech_stack": [
+                "Cloudflare",
+                "Firebase",
+                "HSTS"
+            ]
+        }
+    },
+    {
+        "dev.monkeytype.com": {
+            "ip": "104.26.1.151",
+            "status_code": 200,
+            "ports": [
+                {
+                    "service": "http",
+                    "port": 80,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 443,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "http",
+                    "port": 8080,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 8443,
+                    "version": "Cloudflare http proxy"
+                }
+            ],
+            "waf": "cloudflare",
+            "tech_stack": [
+                "Cloudflare",
+                "Firebase",
+                "HSTS",
+                "reCAPTCHA"
+            ]
+        }
+    },
+    {
+        "fingermap.monkeytype.com": {
+            "ip": "104.26.0.151",
+            "status_code": 200,
+            "ports": [
+                {
+                    "service": "http",
+                    "port": 80,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 443,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "http",
+                    "port": 8080,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 8443,
+                    "version": "Cloudflare http proxy"
+                }
+            ],
+            "waf": "cloudflare",
+            "tech_stack": [
+                "Cloudflare",
+                "Fastly",
+                "GitHub Pages",
+                "Varnish",
+                "html2canvas",
+                "jQuery:3.5.1"
+            ]
+        }
+    },
+    {
+        "monkeytype.com": {
+            "ip": "104.26.1.151",
+            "status_code": 200,
+            "ports": [
+                {
+                    "service": "http",
+                    "port": 80,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 443,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "http",
+                    "port": 8080,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 8443,
+                    "version": "Cloudflare http proxy"
+                }
+            ],
+            "waf": "cloudflare",
+            "tech_stack": [
+                "Cloudflare",
+                "Firebase",
+                "HSTS",
+                "reCAPTCHA"
+            ]
+        }
+    },
+    {
+        "redirects.monkeytype.com": {
+            "ip": "104.26.1.151",
+            "status_code": 200,
+            "ports": [
+                {
+                    "service": "http",
+                    "port": 80,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 443,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "http",
+                    "port": 8080,
+                    "version": "Cloudflare http proxy"
+                },
+                {
+                    "service": "https",
+                    "port": 8443,
+                    "version": "Cloudflare http proxy"
+                }
+            ],
+            "waf": "cloudflare",
+            "tech_stack": [
+                "Cloudflare",
+                "HSTS"
+            ]
+        }
+    }
+]

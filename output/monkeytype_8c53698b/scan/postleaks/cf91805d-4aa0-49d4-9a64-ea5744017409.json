@@ -1,0 +1,19 @@
+{
+  "id": "cf91805d-4aa0-49d4-9a64-ea5744017409",
+  "name": "http://localhost:8080/monkeys-money/expenditures?userId=1",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "http://localhost:8080/monkeys-money/expenditures?userId=1",
+  "queryParams": [
+    {
+      "key": "userId",
+      "value": "1",
+      "equals": true,
+      "enabled": true
+    }
+  ],
+  "headerData": []
+}

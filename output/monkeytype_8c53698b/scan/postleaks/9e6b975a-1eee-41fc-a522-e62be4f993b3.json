@@ -1,0 +1,26 @@
+{
+  "id": "9e6b975a-1eee-41fc-a522-e62be4f993b3",
+  "name": "http://localhost:8080/monkeys-money/investments?userId=1&",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "http://localhost:8080/monkeys-money/investments?userId=1&",
+  "queryParams": [
+    {
+      "key": "userId",
+      "value": "1",
+      "equals": true,
+      "enabled": true
+    },
+    {
+      "key": "",
+      "value": "",
+      "type": "text",
+      "enabled": true,
+      "equals": false
+    }
+  ],
+  "headerData": []
+}

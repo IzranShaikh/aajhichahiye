@@ -1,0 +1,49 @@
+{
+  "id": "d9e2d1c2-34b1-405a-a929-2f32eb8ed644",
+  "name": "https://en.wikipedia.org/api/rest_v1/page/summary/Monkey_D._Luffy",
+  "data": "",
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Monkey_D._Luffy",
+  "queryParams": [],
+  "headerData": [
+    {
+      "key": "host",
+      "value": "en.wikipedia.org"
+    },
+    {
+      "key": "Accept",
+      "value": "application/json; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/Summary/1.2.0\""
+    },
+    {
+      "key": "sec-ch-ua",
+      "value": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\", \"Google Chrome\";v=\"132\""
+    },
+    {
+      "key": "User-Agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+    },
+    {
+      "key": "Sec-Fetch-Dest",
+      "value": "empty"
+    },
+    {
+      "key": "Sec-Fetch-Mode",
+      "value": "cors"
+    },
+    {
+      "key": "Sec-Fetch-Site",
+      "value": "same-origin"
+    },
+    {
+      "key": "sec-ch-ua-mobile",
+      "value": "?0"
+    },
+    {
+      "key": "sec-ch-ua-platform",
+      "value": "\"Linux\""
+    }
+  ]
+}

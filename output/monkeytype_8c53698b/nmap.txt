@@ -1,0 +1,81 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-28 18:45 IST
+Nmap scan report for api.monkeytype.com (172.67.69.61)
+Host is up (0.0077s latency).
+Other addresses for api.monkeytype.com (not scanned): 104.26.0.151 104.26.1.151 2606:4700:20::681a:97 2606:4700:20::681a:197 2606:4700:20::ac43:453d
+
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+443/tcp  open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+8080/tcp open  http     Cloudflare http proxy
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+
+Nmap scan report for auth.monkeytype.com (104.26.0.151)
+Host is up (0.0084s latency).
+Other addresses for auth.monkeytype.com (not scanned): 104.26.1.151 172.67.69.61 2606:4700:20::681a:197 2606:4700:20::ac43:453d 2606:4700:20::681a:97
+
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+8080/tcp open  http     Cloudflare http proxy
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+
+Nmap scan report for monkeytype.com (104.26.1.151)
+Host is up (0.0082s latency).
+Other addresses for monkeytype.com (not scanned): 172.67.69.61 104.26.0.151 2606:4700:20::681a:97 2606:4700:20::ac43:453d 2606:4700:20::681a:197
+
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+8080/tcp open  http     Cloudflare http proxy
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+
+Nmap scan report for fingermap.monkeytype.com (104.26.0.151)
+Host is up (0.011s latency).
+Other addresses for fingermap.monkeytype.com (not scanned): 172.67.69.61 104.26.1.151 2606:4700:20::681a:97 2606:4700:20::681a:197 2606:4700:20::ac43:453d
+
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+8080/tcp open  http     Cloudflare http proxy
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+
+Nmap scan report for dev.monkeytype.com (104.26.1.151)
+Host is up (0.0096s latency).
+Other addresses for dev.monkeytype.com (not scanned): 104.26.0.151 172.67.69.61 2606:4700:20::681a:97 2606:4700:20::ac43:453d 2606:4700:20::681a:197
+
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-trane-info: Problem with XML parsing of /evox/about
+8080/tcp open  http     Cloudflare http proxy
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+
+Nmap scan report for redirects.monkeytype.com (104.26.1.151)
+Host is up (0.0082s latency).
+Other addresses for redirects.monkeytype.com (not scanned): 104.26.0.151 172.67.69.61 2606:4700:20::ac43:453d 2606:4700:20::681a:197 2606:4700:20::681a:97
+
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+8080/tcp open  http     Cloudflare http proxy
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 6 IP addresses (6 hosts up) scanned in 122.37 seconds

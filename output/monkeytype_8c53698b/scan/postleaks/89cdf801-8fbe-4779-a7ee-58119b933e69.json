@@ -1,0 +1,12 @@
+{
+  "id": "89cdf801-8fbe-4779-a7ee-58119b933e69",
+  "name": "http://montemagno.com/monkeys.json",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "http://montemagno.com/monkeys.json",
+  "queryParams": [],
+  "headerData": []
+}

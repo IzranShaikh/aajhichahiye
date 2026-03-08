@@ -1,0 +1,12 @@
+{
+  "id": "ea2eff0f-e45d-4158-9064-2334f3efa69c",
+  "name": "Post Monkey",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "POST",
+  "url": "https://petstore.swagger.io/v2/pet",
+  "queryParams": [],
+  "headerData": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "7c66437c-303f-48be-8616-5366b40ecef8",
+  "name": "https://hallo-monkey-salesforce-staging.azurewebsites.net/services/data/v61.0/sobjects/Account/00167000057azOdAAI",
+  "data": null,
+  "auth": {
+    "type": "noauth"
+  },
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "https://hallo-monkey-salesforce-staging.azurewebsites.net/services/data/v61.0/sobjects/Account/00167000057azOdAAI",
+  "queryParams": [],
+  "headerData": []
+}

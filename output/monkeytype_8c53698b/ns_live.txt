@@ -1,0 +1,6 @@
+api.monkeytype.com
+auth.monkeytype.com
+fingermap.monkeytype.com
+monkeytype.com
+dev.monkeytype.com
+redirects.monkeytype.com

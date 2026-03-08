@@ -1,0 +1,12 @@
+{
+  "id": "4a50f694-5145-4788-b131-878a86c5725b",
+  "name": "http://localhost:8080/monkeys-money/investments",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "POST",
+  "url": "http://localhost:8080/monkeys-money/investments",
+  "queryParams": [],
+  "headerData": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "978f3fde-3d47-4713-bc6f-e5bc1847e007",
+  "name": "Casino-openGame copy",
+  "data": null,
+  "auth": null,
+  "events": [
+    {
+      "listen": "test",
+      "script": {
+        "id": "6000c7a0-23a2-4edd-b489-2dd4d2a76da4",
+        "exec": [
+          "var data = JSON.parse(responseBody)",
+          "",
+          "postman.setEnvironmentVariable(\"TOKEN\", data.vendorParams.TOKEN);",
+          "",
+          "pm.environment.set(\"TOKEN\", data.vendorParams.TOKEN);"
+        ],
+        "type": "text/javascript"
+      }
+    }
+  ],
+  "description": "\"vendorId\":\"fungaming\",\"gameID\":\"vs7monkeys\",",
+  "method": "POST",
+  "url": "{{url}}/casino/openGame",
+  "queryParams": [],
+  "headerData": [
+    {
+      "key": "Accept",
+      "value": "application/json",
+      "enabled": true
+    },
+    {
+      "key": "Content-Type",
+      "value": "application/json",
+      "enabled": true
+    },
+    {
+      "key": "accessToken",
+      "value": "{{accessToken}}",
+      "enabled": true
+    }
+  ]
+}

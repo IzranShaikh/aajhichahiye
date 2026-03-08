@@ -1,0 +1,27 @@
+{
+  "id": "0731376f-94b1-46b6-b497-ef681bf00266",
+  "name": "Create Payment Request",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "{{site_url}}/api/method/saasmanagement.monkey_patches.sales_invoice.create_payment_request?subscription=SSUB-2022-00027&sales_invoice=ACC-SINV-2022-02311",
+  "queryParams": [
+    {
+      "key": "subscription",
+      "value": "SSUB-2022-00027",
+      "equals": true,
+      "description": null,
+      "enabled": true
+    },
+    {
+      "key": "sales_invoice",
+      "value": "ACC-SINV-2022-02311",
+      "equals": true,
+      "description": null,
+      "enabled": true
+    }
+  ],
+  "headerData": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "f574a406-3e14-4db1-987f-5889e4d4b571",
+  "name": "POST raw text",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": "It's time to work on your next challenge.\n\n1. **Create a variable**: Notice the same request from the last challenge. Copy the first part of the request URL (the part before `/post`) and replace it with `{{baseURL}}`.\n    \n    The double curly braces is how you get variables in the text fields of Postman. If you hover over the variable, the tool tip says \"Unresolved Variable\" because it hasn't been set yet.\n    \n2. **Create an environment**: [Create a new environment](https://learning.postman.com/docs/sending-requests/managing-environments/#creating-environments) with a key `baseURL`. The value for this new variable should be the part you copied from the request URL in the previous step. You can enter it under both `INITIAL VALUE` and `CURRENT VALUE`. Remember to select the new environment as the active environment so Postman will read in the values properly.\n    \n    If you hover over the variable `{{baseURL}}` in the request URL, you should see Postman reading in the variable value from the actively selected environment. Now that you've stored the base URL in a variable named `baseURL`, you can reference it in your requests using `{{baseURL}}`. If the base URL value is `https://postman-echo.com`, and is listed as part of the request URL using `{{baseURL}}/post`, Postman will send the request to `https://postman-echo.com/post`. Save your changes in the collection and environment.\n    \n3. **Add a request:** Rename the request from `echo` to `POST raw text`. Then, duplicate the request in this folder, and rename the second request `GET with query params`. Update the new request HTTP method to `GET` and update the request URL from `/post` to `/get`. Add two [query parameters](https://learning.postman.com/docs/sending-requests/requests/#sending-parameters). This can be anything you like, for example, `foo` and `bar` or `name` and `ferret`. **Send** to make sure you get a 200 status code.\n    \n\nOnce you complete these steps, move on to the next folder in this collection to submit your solution.",
+  "method": "POST",
+  "url": "{{baseURL}}/post?monkey=luffy&nico=robin&roronoa=zoro",
+  "queryParams": [
+    {
+      "key": "monkey",
+      "value": "luffy",
+      "description": null,
+      "enabled": true,
+      "equals": true
+    },
+    {
+      "key": "nico",
+      "value": "robin",
+      "description": null,
+      "enabled": true,
+      "equals": true
+    },
+    {
+      "key": "roronoa",
+      "value": "zoro",
+      "description": null,
+      "enabled": true,
+      "equals": true
+    }
+  ],
+  "headerData": []
+}

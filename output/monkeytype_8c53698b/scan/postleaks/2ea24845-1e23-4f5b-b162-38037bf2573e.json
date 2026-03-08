@@ -1,0 +1,138 @@
+{
+  "id": "2ea24845-1e23-4f5b-b162-38037bf2573e",
+  "name": "DownloadSurveyMonkeyDetails",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "{{url}}/Download/DownloadSurveyMonkeyDetails?DistCode=3616&dsrid=3",
+  "queryParams": [
+    {
+      "key": "DistCode",
+      "value": "3616",
+      "equals": true
+    },
+    {
+      "key": "dsrid",
+      "value": "3",
+      "equals": true
+    }
+  ],
+  "headerData": [
+    {
+      "key": "content-type",
+      "value": "application/json;charset=UTF-8",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "Accept",
+      "value": "application/json",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "Role",
+      "value": "DSR",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "Charset",
+      "value": "utf-8",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "marico_access_tokenid",
+      "value": "3616315/03/2023",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "SelectedBeats",
+      "value": "5",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "marico_dsr_id",
+      "value": "3",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "marico_dsr_code",
+      "value": "3616",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "API_HIT_DATE_TIME",
+      "value": "2023-09-21 1:23:46",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "last_sync_date",
+      "value": "20150101",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "Connection",
+      "value": "Keep-Alive",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "modelBrand",
+      "value": "Xiaomi",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "androidOSname",
+      "value": "Android 10",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "androidOSversion",
+      "value": "10",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "VersionNo",
+      "value": "11.0.16_Dev",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "modelNumber",
+      "value": "V12.0.3.0.QEJMIXM",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "androidSDKInt",
+      "value": "29",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "SecureID",
+      "value": "a92a3b3ce63f89f1",
+      "type": "text",
+      "enabled": true
+    },
+    {
+      "key": "IMEI",
+      "value": "a92a3b3ce63f89f1",
+      "type": "text",
+      "enabled": true
+    }
+  ]
+}

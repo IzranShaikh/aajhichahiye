@@ -1,0 +1,12 @@
+{
+  "id": "552c50b5-40d0-4746-a365-1d4e52121078",
+  "name": "get Shari the Monkey",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "http://acnhapi.com/v1/icons/villagers/250",
+  "queryParams": [],
+  "headerData": []
+}

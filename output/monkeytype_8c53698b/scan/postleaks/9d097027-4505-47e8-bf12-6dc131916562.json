@@ -1,0 +1,46 @@
+{
+  "id": "9d097027-4505-47e8-bf12-6dc131916562",
+  "name": "skill check",
+  "data": null,
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "value",
+        "value": "skillcheck",
+        "type": "string"
+      },
+      {
+        "key": "key",
+        "value": "student-expert",
+        "type": "string"
+      }
+    ]
+  },
+  "events": [
+    {
+      "listen": "test",
+      "script": {
+        "id": "9721f1de-07a8-483e-a1e1-c6211a352356",
+        "exec": [
+          "const actorName = pm.response.json().actorName\r",
+          "pm.collectionVariables.set(\"favoriteActor\", actorName)"
+        ],
+        "type": "text/javascript"
+      }
+    }
+  ],
+  "description": null,
+  "method": "POST",
+  "url": "{{skillcheckBaseUrl}}?movieName=The Monkey King ",
+  "queryParams": [
+    {
+      "key": "movieName",
+      "value": "The Monkey King ",
+      "equals": true,
+      "description": null,
+      "enabled": true
+    }
+  ],
+  "headerData": []
+}

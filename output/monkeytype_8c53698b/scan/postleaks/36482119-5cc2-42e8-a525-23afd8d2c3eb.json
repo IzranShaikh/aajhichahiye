@@ -1,0 +1,12 @@
+{
+  "id": "36482119-5cc2-42e8-a525-23afd8d2c3eb",
+  "name": "http://localhost:8080/monkeys-money/users",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "POST",
+  "url": "http://localhost:8080/monkeys-money/users",
+  "queryParams": [],
+  "headerData": []
+}

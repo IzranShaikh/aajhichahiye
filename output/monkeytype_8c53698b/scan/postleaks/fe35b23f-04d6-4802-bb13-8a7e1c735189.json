@@ -1,0 +1,39 @@
+{
+  "id": "fe35b23f-04d6-4802-bb13-8a7e1c735189",
+  "name": "Follow user",
+  "data": null,
+  "auth": null,
+  "events": [
+    {
+      "listen": "test",
+      "script": {
+        "id": "8853c26b-c919-4fb9-928e-c492aa571b3d",
+        "exec": [
+          ""
+        ],
+        "type": "text/javascript",
+        "packages": {}
+      }
+    }
+  ],
+  "description": null,
+  "method": "POST",
+  "url": "https://conduit.mate.academy/api/profiles/monkey34/follow",
+  "queryParams": [],
+  "headerData": [
+    {
+      "key": "Authorization",
+      "value": "Token {{token}}",
+      "description": null,
+      "enabled": true,
+      "type": "text"
+    },
+    {
+      "key": "Content-Type",
+      "value": "application/json",
+      "description": null,
+      "enabled": true,
+      "type": "text"
+    }
+  ]
+}

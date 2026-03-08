@@ -1,0 +1,36 @@
+{
+  "id": "66cd84af-03e5-407c-b371-464b8c7dc23c",
+  "name": "Read Key Value - Chaos Monkey",
+  "data": [],
+  "auth": null,
+  "events": [
+    {
+      "listen": "test",
+      "script": {
+        "id": "cd5e8e7b-002c-4f57-967a-a3009d44780f",
+        "exec": [
+          "var jsonData = JSON.parse(responseBody);\r",
+          "\r",
+          "pm.environment.set(\"output_from_Vault\", jsonData.data.data.code);\r",
+          "\r",
+          "pm.test(\"Response time is less than 10ms\", function () {\r",
+          "    pm.expect(pm.response.responseTime).to.be.below(5);\r",
+          "});"
+        ],
+        "type": "text/javascript"
+      }
+    }
+  ],
+  "description": null,
+  "method": "GET",
+  "url": "{{VAULT_ADDRESS}}/v1/mySecretKeys/data/{{VAULT_KV_PATH}}",
+  "queryParams": [],
+  "headerData": [
+    {
+      "key": "X-Vault-Token",
+      "value": "{{VAULT_TOKEN}}",
+      "type": "text",
+      "enabled": true
+    }
+  ]
+}

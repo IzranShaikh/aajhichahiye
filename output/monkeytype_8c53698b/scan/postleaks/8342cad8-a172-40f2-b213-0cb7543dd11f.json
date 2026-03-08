@@ -1,0 +1,17 @@
+{
+  "id": "8342cad8-a172-40f2-b213-0cb7543dd11f",
+  "name": "PDF Monkey Webhook",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "POST",
+  "url": "{{baseUrl}}/webhooks/pdf-monkey-webhook",
+  "queryParams": [],
+  "headerData": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ]
+}

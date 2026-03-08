@@ -1,0 +1,21 @@
+{
+  "id": "9548fe4e-0f97-49af-a663-9f7dd5390474",
+  "name": "Get Monkeys",
+  "data": null,
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{vault:authorization-secret}}",
+        "type": "string"
+      }
+    ]
+  },
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "localhost:8000/api/home/monkeys",
+  "queryParams": [],
+  "headerData": []
+}

@@ -1,0 +1,26 @@
+# coded by ahmed aboul-ela - @aboul3la
+/ ___| _   _| |__ | (_)___| |_|___ / _ __
+[!] error: virustotal probably now is blocking our requests
+[-] enumerating subdomains now for monkeytype.com
+[-] searching now in ask..
+[-] searching now in baidu..
+[-] searching now in bing..
+[-] searching now in dnsdumpster..
+[-] searching now in google..
+[-] searching now in netcraft..
+[-] searching now in passivedns..
+[-] searching now in ssl certificates..
+[-] searching now in threatcrowd..
+[-] searching now in virustotal..
+[-] searching now in yahoo..
+\___ \| | | | '_ \| | / __| __| |_ \| '__|
+___) | |_| | |_) | | \__ \ |_ ___) | |
+____        _     _ _     _   _____
+api.monkeytype.com
+auth.monkeytype.com
+dev.monkeytype.com
+fingermap.monkeytype.com
+monkeytype.com
+redirects.monkeytype.com
+supersecrettribedev.monkeytype.com
+|____/ \__,_|_.__/|_|_|___/\__|____/|_|

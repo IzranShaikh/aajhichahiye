@@ -1,0 +1,12 @@
+{
+  "id": "b3bdbb08-03e3-431f-b0a7-49f39661ed13",
+  "name": "ShopMonkey_orders",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "{{local}}shopmonkey-orders/",
+  "queryParams": [],
+  "headerData": []
+}

@@ -1,0 +1,7 @@
+www.monkeytype.com
+dev.monkeytype.com
+supersecrettribedev.monkeytype.com
+api.monkeytype.com
+fingermap.monkeytype.com
+redirects.monkeytype.com
+auth.monkeytype.com

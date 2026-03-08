@@ -1,0 +1,101 @@
+{
+  "id": "3a00389f-7f42-4d6f-9bcb-c74960090243",
+  "name": "Create question in SurveyMonkey",
+  "data": null,
+  "auth": null,
+  "events": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "b84feb85-d344-41e8-a0d8-dd61e3984c35",
+        "type": "text/javascript",
+        "exec": [
+          "let records = JSON.parse(pm.environment.get(\"airtable_records\"));",
+          "let question_position = parseInt(pm.environment.get(\"question_position\"));",
+          "",
+          "// remove empty strings and falsy items from array",
+          "function cleanArray(actual) {",
+          "    let newArray = [];",
+          "",
+          "    for (i = 0; i < actual.length; i++) {",
+          "        if (actual[i]) {",
+          "            newArray.push(actual[i]);",
+          "        }",
+          "    }",
+          "",
+          "    return newArray;",
+          "}",
+          "",
+          "if (records.length > 1) {",
+          "    let record = records.shift();",
+          "    let question = record.fields.Question;",
+          "    let recordChoices = cleanArray(JSON.parse((record.fields.Choices).replace(/'/g, '\"')));",
+          "    let choices = [];",
+          "    ",
+          "    // accommodate a variable number of answer choices",
+          "    for (j = 0; j < recordChoices.length; j++) {",
+          "        choices.push({",
+          "            \"text\": recordChoices[j]",
+          "        });",
+          "    }",
+          "    ",
+          "    // build the question and answers",
+          "    pm.environment.set(\"message\", JSON.stringify({",
+          "        \"headings\": [",
+          "            {",
+          "                \"heading\": question",
+          "            }",
+          "        ],",
+          "        \"position\": question_position,",
+          "        \"family\": \"multiple_choice\",",
+          "        \"subtype\": \"vertical\",",
+          "        \"answers\": {",
+          "            \"choices\": choices",
+          "        }",
+          "    }));",
+          "",
+          "    console.log(JSON.parse(pm.environment.get(\"message\")));",
+          "    ",
+          "    // advance counter, re-establish records queue, call self",
+          "    pm.environment.set(\"question_position\", question_position += 1);",
+          "    pm.environment.set(\"airtable_records\", JSON.stringify(records));",
+          "    postman.setNextRequest(\"Create question in SurveyMonkey\");",
+          "} else {",
+          "    postman.setNextRequest(null);",
+          "}"
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "5e048845-5ef1-447c-8d23-7409773c68c4",
+        "type": "text/javascript",
+        "exec": [
+          "pm.test(\"Successful POST request\", function () {",
+          "    pm.expect(pm.response.code).to.be.oneOf([201,202]);",
+          "    ",
+          "    let response = pm.response.json();",
+          "    if (pm.response.code === 201) {",
+          "        console.log(\"Getting airtable records...\");",
+          "    }",
+          "});"
+        ]
+      }
+    }
+  ],
+  "description": "Create a new question on a survey page.\n\nThe [SurveyMonkey API documentation](https://developer.surveymonkey.com/api/v3/) has a **Run in Postman** button to import all of their endpoints into the Postman app.\n\nThe second request in my Postman Collection would be to `POST` every question to my existing survey. For the authorization, create a new SurveyMonkey app. Under their **Settings** tab, select the scopes and permissions that your app will have.\n\n![[surveymonkey permissions](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/surveymonkey_permissions.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/surveymonkey_permissions.png)\n\nOn this same page, copy the access token and add this information as an [environment variable](https://www.getpostman.com/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals) called `surveymonkey_token` under the environments editor. In this same manner, you will also need to update the `SURVEY_ID` and `PAGE_ID` environment variables, which you can now `GET` using [the other SurveyMonkey API endpoints](https://developer.surveymonkey.com/api/v3/#surveys).  \n\n![[editing the environment](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/surveymonkey_env_editor.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/surveymonkey_env_editor.png)\n\nUnder the **Pre-request Script** tab, let\u2019s access the airtable records and format the question data in the way that the SurveyMonkey API requires, to be sent in the request body.",
+  "method": "POST",
+  "url": "https://api.surveymonkey.net/v3/surveys/{{SURVEY_ID}}/pages/{{PAGE_ID}}/questions",
+  "queryParams": [],
+  "headerData": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Authorization",
+      "value": "bearer {{surveymonkey_token}}"
+    }
+  ]
+}

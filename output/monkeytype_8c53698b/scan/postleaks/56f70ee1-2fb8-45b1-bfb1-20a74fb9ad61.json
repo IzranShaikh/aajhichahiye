@@ -1,0 +1,12 @@
+{
+  "id": "56f70ee1-2fb8-45b1-bfb1-20a74fb9ad61",
+  "name": "New Request",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "https://monkeypen-be-dev.techlabz.in//child-content-tracking/contentRate/340",
+  "queryParams": [],
+  "headerData": []
+}

@@ -1,0 +1,414 @@
+[dns-waf-detect:cloudflare] [dns] [info] monkeytype.com
+[dns-waf-detect:cloudflare] [dns] [info] monkeytype.com
+[dns-waf-detect:cloudflare] [dns] [info] monkeytype.com
+[dns-waf-detect:cloudflare] [dns] [info] monkeytype.com
+[waf-detect:cloudflare] [http] [info] http://auth.monkeytype.com:8443
+[waf-detect:varnish] [http] [info] http://fingermap.monkeytype.com:80
+[waf-detect:cloudflare] [http] [info] http://fingermap.monkeytype.com:80
+[waf-detect:cloudflare] [http] [info] http://dev.monkeytype.com:8443
+[waf-detect:cloudflare] [http] [info] http://redirects.monkeytype.com:8443
+[waf-detect:cloudflare] [http] [info] http://api.monkeytype.com:8443
+[waf-detect:cloudflare] [http] [info] http://fingermap.monkeytype.com:8443
+[waf-detect:cloudflare] [http] [info] http://dev.monkeytype.com:80
+[waf-detect:cloudflare] [http] [info] http://auth.monkeytype.com:80
+[waf-detect:cloudflare] [http] [info] http://monkeytype.com:8443
+[waf-detect:cloudflare] [http] [info] http://monkeytype.com:80
+[waf-detect:cloudflare] [http] [info] https://api.monkeytype.com:443
+[waf-detect:cloudflare] [http] [info] https://fingermap.monkeytype.com:443
+[waf-detect:varnish] [http] [info] https://fingermap.monkeytype.com:443
+[waf-detect:cloudflare] [http] [info] https://redirects.monkeytype.com:443
+[waf-detect:cloudflare] [http] [info] https://auth.monkeytype.com:443
+[waf-detect:cloudflare] [http] [info] http://redirects.monkeytype.com:80
+[waf-detect:nginxgeneric] [http] [info] http://redirects.monkeytype.com:80
+[waf-detect:cloudflare] [http] [info] https://monkeytype.com:443
+[waf-detect:cloudflare] [http] [info] https://dev.monkeytype.com:443
+[tls-version] [ssl] [info] fingermap.monkeytype.com:443 ["tls12"]
+[tls-version] [ssl] [info] redirects.monkeytype.com:8443 ["tls12"]
+[tls-version] [ssl] [info] api.monkeytype.com:8443 ["tls12"]
+[tls-version] [ssl] [info] monkeytype.com:443 ["tls12"]
+[tls-version] [ssl] [info] fingermap.monkeytype.com:8443 ["tls12"]
+[tls-version] [ssl] [info] redirects.monkeytype.com:443 ["tls12"]
+[tls-version] [ssl] [info] monkeytype.com:8443 ["tls12"]
+[tls-version] [ssl] [info] dev.monkeytype.com:8443 ["tls12"]
+[tls-version] [ssl] [info] dev.monkeytype.com:443 ["tls12"]
+[tls-version] [ssl] [info] monkeytype.com:443 ["tls13"]
+[tls-version] [ssl] [info] redirects.monkeytype.com:443 ["tls13"]
+[tls-version] [ssl] [info] redirects.monkeytype.com:8443 ["tls13"]
+[tls-version] [ssl] [info] api.monkeytype.com:443 ["tls12"]
+[tls-version] [ssl] [info] dev.monkeytype.com:8443 ["tls13"]
+[tls-version] [ssl] [info] dev.monkeytype.com:443 ["tls13"]
+[tls-version] [ssl] [info] api.monkeytype.com:443 ["tls13"]
+[tls-version] [ssl] [info] auth.monkeytype.com:8443 ["tls12"]
+[tls-version] [ssl] [info] auth.monkeytype.com:443 ["tls12"]
+[tls-version] [ssl] [info] fingermap.monkeytype.com:8443 ["tls13"]
+[tls-version] [ssl] [info] monkeytype.com:8443 ["tls13"]
+[tls-version] [ssl] [info] auth.monkeytype.com:8443 ["tls13"]
+[tls-version] [ssl] [info] api.monkeytype.com:8443 ["tls13"]
+[tls-version] [ssl] [info] fingermap.monkeytype.com:443 ["tls13"]
+[tls-version] [ssl] [info] auth.monkeytype.com:443 ["tls13"]
+[options-method] [http] [info] https://dev.monkeytype.com:443 ["GET, HEAD, OPTIONS"]
+[options-method] [http] [info] https://monkeytype.com:443 ["GET, HEAD, OPTIONS"]
+[fastly-debug-headers:fastly-debug-ttl] [http] [info] http://monkeytype.com:80
+[fastly-debug-headers:fastly-debug-digest] [http] [info] http://monkeytype.com:80
+[fastly-debug-headers:fastly-debug-path] [http] [info] http://monkeytype.com:80
+[fastly-debug-headers:fastly-debug-ttl] [http] [info] http://dev.monkeytype.com:80
+[fastly-debug-headers:fastly-debug-digest] [http] [info] http://dev.monkeytype.com:80
+[fastly-debug-headers:fastly-debug-path] [http] [info] http://dev.monkeytype.com:80
+[fastly-debug-headers:fastly-debug-path] [http] [info] http://auth.monkeytype.com:80
+[fastly-debug-headers:fastly-debug-ttl] [http] [info] http://auth.monkeytype.com:80
+[fastly-debug-headers:fastly-debug-digest] [http] [info] http://auth.monkeytype.com:80
+[fastly-debug-headers:fastly-debug-digest] [http] [info] http://fingermap.monkeytype.com:80
+[fastly-debug-headers:fastly-debug-path] [http] [info] http://fingermap.monkeytype.com:80
+[fastly-debug-headers:fastly-debug-ttl] [http] [info] http://fingermap.monkeytype.com:80
+[fastly-debug-headers:fastly-debug-path] [http] [info] https://fingermap.monkeytype.com:443
+[fastly-debug-headers:fastly-debug-ttl] [http] [info] https://fingermap.monkeytype.com:443
+[fastly-debug-headers:fastly-debug-digest] [http] [info] https://fingermap.monkeytype.com:443
+[fastly-debug-headers:fastly-debug-ttl] [http] [info] https://auth.monkeytype.com:443
+[fastly-debug-headers:fastly-debug-digest] [http] [info] https://auth.monkeytype.com:443
+[fastly-debug-headers:fastly-debug-path] [http] [info] https://auth.monkeytype.com:443
+[fastly-debug-headers:fastly-debug-path] [http] [info] https://dev.monkeytype.com:443
+[fastly-debug-headers:fastly-debug-ttl] [http] [info] https://dev.monkeytype.com:443
+[fastly-debug-headers:fastly-debug-digest] [http] [info] https://dev.monkeytype.com:443
+[missing-sri] [http] [info] https://auth.monkeytype.com:443/ ["https://fonts.googleapis.com/css?family=Roboto"]
+[missing-sri] [http] [info] https://api.monkeytype.com:443/ ["https://performance.radar.cloudflare.com/beacon.js"]
+[missing-sri] [http] [info] https://monkeytype.com:443/ ["https://www.google.com/recaptcha/api.js?render=explicit"]
+[missing-sri] [http] [info] https://auth.monkeytype.com/ ["https://fonts.googleapis.com/css?family=Roboto"]
+[missing-sri] [http] [info] https://dev.monkeytype.com:443/ ["https://www.google.com/recaptcha/api.js?render=explicit"]
+[missing-sri] [http] [info] https://monkeytype.com/ ["https://www.google.com/recaptcha/api.js?render=explicit"]
+[missing-sri] [http] [info] https://dev.monkeytype.com/ ["https://www.google.com/recaptcha/api.js?render=explicit"]
+[robots-txt-endpoint] [http] [info] https://monkeytype.com:443/robots.txt
+[robots-txt-endpoint] [http] [info] https://dev.monkeytype.com:443/robots.txt
+[security-txt] [http] [info] https://dev.monkeytype.com:443/.well-known/security.txt ["mailto:contact@monkeytype.com","message @Miodec on discord.gg/monkeytype"]
+[security-txt] [http] [info] https://monkeytype.com:443/.well-known/security.txt ["mailto:contact@monkeytype.com","message @Miodec on discord.gg/monkeytype"]
+[security-txt] [http] [info] https://dev.monkeytype.com/.well-known/security.txt ["mailto:contact@monkeytype.com","message @Miodec on discord.gg/monkeytype"]
+[security-txt] [http] [info] https://monkeytype.com/.well-known/security.txt ["mailto:contact@monkeytype.com","message @Miodec on discord.gg/monkeytype"]
+[addeventlistener-detect] [http] [info] http://fingermap.monkeytype.com:80
+[addeventlistener-detect] [http] [info] https://api.monkeytype.com:443
+[addeventlistener-detect] [http] [info] https://fingermap.monkeytype.com:443
+[addeventlistener-detect] [http] [info] https://auth.monkeytype.com:443
+[addeventlistener-detect] [http] [info] https://monkeytype.com:443
+[exposed-file-upload-form] [http] [info] https://monkeytype.com:443
+[weak-csp-detect:missing-script-src] [http] [info] https://monkeytype.com:443 ["frame-ancestors 'none'"]
+[weak-csp-detect:missing-object-src] [http] [info] https://monkeytype.com:443 ["frame-ancestors 'none'"]
+[addeventlistener-detect] [http] [info] https://dev.monkeytype.com:443
+[discord-invite-detect:discord-server-invite] [http] [info] https://dev.monkeytype.com:443 ["https://discord.gg/monkeytype","https://www.discord.gg/monkeytype"]
+[exposed-file-upload-form] [http] [info] https://dev.monkeytype.com:443
+[weak-csp-detect:missing-script-src] [http] [info] https://dev.monkeytype.com:443 ["frame-ancestors 'none'"]
+[weak-csp-detect:missing-object-src] [http] [info] https://dev.monkeytype.com:443 ["frame-ancestors 'none'"]
+[tech-detect:cloudflare] [http] [info] http://auth.monkeytype.com:8443
+[tech-detect:cloudflare] [http] [info] http://monkeytype.com:8443
+[tech-detect:cloudflare] [http] [info] http://fingermap.monkeytype.com:8443
+[tech-detect:cloudflare] [http] [info] http://redirects.monkeytype.com:8443
+[tech-detect:cloudflare] [http] [info] http://dev.monkeytype.com:8443
+[tech-detect:cloudflare] [http] [info] http://api.monkeytype.com:8443
+[tech-detect:cloudflare] [http] [info] https://redirects.monkeytype.com:443
+[tech-detect:cloudflare] [http] [info] https://api.monkeytype.com:443
+[tech-detect:font-awesome] [http] [info] http://fingermap.monkeytype.com:80
+[tech-detect:cloudflare] [http] [info] http://fingermap.monkeytype.com:80
+[tech-detect:font-awesome] [http] [info] https://fingermap.monkeytype.com:443
+[tech-detect:cloudflare] [http] [info] https://fingermap.monkeytype.com:443
+[tech-detect:google-font-api] [http] [info] https://auth.monkeytype.com:443
+[tech-detect:cloudflare] [http] [info] https://auth.monkeytype.com:443
+[tech-detect:cloudflare] [http] [info] https://auth.monkeytype.com/
+[tech-detect:google-font-api] [http] [info] https://auth.monkeytype.com/
+[tech-detect:cloudflare] [http] [info] http://auth.monkeytype.com:80
+[tech-detect:cloudflare] [http] [info] https://redirects.monkeytype.com/
+[tech-detect:cloudflare] [http] [info] http://redirects.monkeytype.com:80
+[tech-detect:recaptcha] [http] [info] https://monkeytype.com/
+[tech-detect:cloudflare] [http] [info] https://monkeytype.com/
+[tech-detect:recaptcha] [http] [info] https://monkeytype.com:443
+[tech-detect:cloudflare] [http] [info] https://monkeytype.com:443
+[tech-detect:recaptcha] [http] [info] https://dev.monkeytype.com:443
+[tech-detect:cloudflare] [http] [info] https://dev.monkeytype.com:443
+[tech-detect:recaptcha] [http] [info] https://dev.monkeytype.com/
+[tech-detect:cloudflare] [http] [info] https://dev.monkeytype.com/
+[tech-detect:cloudflare] [http] [info] http://monkeytype.com:80
+[tech-detect:cloudflare] [http] [info] http://dev.monkeytype.com:80
+[robots-txt] [http] [info] https://monkeytype.com:443/robots.txt
+[robots-txt] [http] [info] https://dev.monkeytype.com:443/robots.txt
+[robots-txt] [http] [info] https://dev.monkeytype.com/robots.txt
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["client transfer prohibited"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["2019-08-07T18:17:13Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["2025-07-08T08:26:04Z"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["2026-08-07T18:17:13Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["DAYANA.NS.CLOUDFLARE.COM","TADEO.NS.CLOUDFLARE.COM"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["false"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["2019-08-07T18:17:13Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["2025-07-08T08:26:04Z"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["2026-08-07T18:17:13Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["DAYANA.NS.CLOUDFLARE.COM","TADEO.NS.CLOUDFLARE.COM"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["false"]
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["client transfer prohibited"]
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["client transfer prohibited"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["2019-08-07T18:17:13Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["2025-07-08T08:26:04Z"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["2026-08-07T18:17:13Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["DAYANA.NS.CLOUDFLARE.COM","TADEO.NS.CLOUDFLARE.COM"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/monkeytype.com ["false"]
+[http-missing-security-headers:strict-transport-security] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:permissions-policy] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:x-content-type-options] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:referrer-policy] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:content-security-policy] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:x-frame-options] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:clear-site-data] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://api.monkeytype.com:8443
+[http-missing-security-headers:permissions-policy] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:x-content-type-options] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:referrer-policy] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:clear-site-data] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:content-security-policy] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:x-content-type-options] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:referrer-policy] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:clear-site-data] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:strict-transport-security] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:permissions-policy] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:x-frame-options] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://auth.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:strict-transport-security] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:content-security-policy] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:x-frame-options] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://fingermap.monkeytype.com:8443
+[http-missing-security-headers:content-security-policy] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:permissions-policy] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:x-frame-options] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:referrer-policy] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:clear-site-data] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:strict-transport-security] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:x-content-type-options] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://redirects.monkeytype.com:8443
+[http-missing-security-headers:referrer-policy] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:clear-site-data] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:strict-transport-security] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:x-frame-options] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:content-security-policy] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:permissions-policy] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:x-content-type-options] [http] [info] http://monkeytype.com:8443
+[http-missing-security-headers:permissions-policy] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:x-frame-options] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:x-content-type-options] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:referrer-policy] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:clear-site-data] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:strict-transport-security] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:content-security-policy] [http] [info] http://dev.monkeytype.com:8443
+[http-missing-security-headers:strict-transport-security] [http] [info] https://api.monkeytype.com:443
+[http-missing-security-headers:x-content-type-options] [http] [info] https://api.monkeytype.com:443
+[http-missing-security-headers:clear-site-data] [http] [info] https://api.monkeytype.com:443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://api.monkeytype.com:443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://api.monkeytype.com:443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://api.monkeytype.com:443
+[http-missing-security-headers:content-security-policy] [http] [info] https://api.monkeytype.com:443
+[http-missing-security-headers:permissions-policy] [http] [info] https://api.monkeytype.com:443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://api.monkeytype.com:443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://dev.monkeytype.com/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://dev.monkeytype.com/
+[http-missing-security-headers:permissions-policy] [http] [info] https://dev.monkeytype.com/
+[http-missing-security-headers:x-content-type-options] [http] [info] https://dev.monkeytype.com/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://dev.monkeytype.com/
+[http-missing-security-headers:referrer-policy] [http] [info] https://dev.monkeytype.com/
+[http-missing-security-headers:clear-site-data] [http] [info] https://dev.monkeytype.com/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://dev.monkeytype.com/
+[http-missing-security-headers:permissions-policy] [http] [info] https://redirects.monkeytype.com/
+[http-missing-security-headers:clear-site-data] [http] [info] https://redirects.monkeytype.com/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://redirects.monkeytype.com/
+[http-missing-security-headers:clear-site-data] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:content-security-policy] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:referrer-policy] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:strict-transport-security] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:permissions-policy] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:x-frame-options] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:x-content-type-options] [http] [info] http://fingermap.monkeytype.com:80
+[http-missing-security-headers:x-content-type-options] [http] [info] https://monkeytype.com:443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://monkeytype.com:443
+[http-missing-security-headers:referrer-policy] [http] [info] https://monkeytype.com:443
+[http-missing-security-headers:clear-site-data] [http] [info] https://monkeytype.com:443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://monkeytype.com:443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://monkeytype.com:443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://monkeytype.com:443
+[http-missing-security-headers:permissions-policy] [http] [info] https://monkeytype.com:443
+[http-missing-security-headers:clear-site-data] [http] [info] https://auth.monkeytype.com/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://auth.monkeytype.com/
+[http-missing-security-headers:content-security-policy] [http] [info] https://auth.monkeytype.com/
+[http-missing-security-headers:permissions-policy] [http] [info] https://auth.monkeytype.com/
+[http-missing-security-headers:x-frame-options] [http] [info] https://auth.monkeytype.com/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://auth.monkeytype.com/
+[http-missing-security-headers:referrer-policy] [http] [info] https://auth.monkeytype.com/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://auth.monkeytype.com/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://auth.monkeytype.com/
+[http-missing-security-headers:x-content-type-options] [http] [info] https://auth.monkeytype.com/
+[http-missing-security-headers:strict-transport-security] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:permissions-policy] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:x-frame-options] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:x-content-type-options] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:content-security-policy] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:referrer-policy] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:clear-site-data] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://fingermap.monkeytype.com:443
+[http-missing-security-headers:permissions-policy] [http] [info] https://redirects.monkeytype.com:443
+[http-missing-security-headers:clear-site-data] [http] [info] https://redirects.monkeytype.com:443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://redirects.monkeytype.com:443
+[http-missing-security-headers:referrer-policy] [http] [info] https://dev.monkeytype.com:443
+[http-missing-security-headers:clear-site-data] [http] [info] https://dev.monkeytype.com:443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://dev.monkeytype.com:443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://dev.monkeytype.com:443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://dev.monkeytype.com:443
+[http-missing-security-headers:permissions-policy] [http] [info] https://dev.monkeytype.com:443
+[http-missing-security-headers:x-content-type-options] [http] [info] https://dev.monkeytype.com:443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://dev.monkeytype.com:443
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://auth.monkeytype.com:443
+[http-missing-security-headers:permissions-policy] [http] [info] https://auth.monkeytype.com:443
+[http-missing-security-headers:x-frame-options] [http] [info] https://auth.monkeytype.com:443
+[http-missing-security-headers:x-content-type-options] [http] [info] https://auth.monkeytype.com:443
+[http-missing-security-headers:referrer-policy] [http] [info] https://auth.monkeytype.com:443
+[http-missing-security-headers:clear-site-data] [http] [info] https://auth.monkeytype.com:443
+[http-missing-security-headers:content-security-policy] [http] [info] https://auth.monkeytype.com:443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://auth.monkeytype.com:443
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://auth.monkeytype.com:443
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://auth.monkeytype.com:443
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://monkeytype.com/
+[http-missing-security-headers:referrer-policy] [http] [info] https://monkeytype.com/
+[http-missing-security-headers:clear-site-data] [http] [info] https://monkeytype.com/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://monkeytype.com/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://monkeytype.com/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://monkeytype.com/
+[http-missing-security-headers:permissions-policy] [http] [info] https://monkeytype.com/
+[http-missing-security-headers:x-content-type-options] [http] [info] https://monkeytype.com/
+[form-detection] [http] [info] https://monkeytype.com/
+[form-detection] [http] [info] https://dev.monkeytype.com:443
+[form-detection] [http] [info] https://monkeytype.com:443
+[form-detection] [http] [info] https://dev.monkeytype.com/
+[caa-fingerprint] [dns] [info] auth.monkeytype.com
+[caa-fingerprint] [dns] [info] monkeytype.com
+[caa-fingerprint] [dns] [info] dev.monkeytype.com
+[caa-fingerprint] [dns] [info] monkeytype.com
+[caa-fingerprint] [dns] [info] redirects.monkeytype.com
+[caa-fingerprint] [dns] [info] fingermap.monkeytype.com
+[caa-fingerprint] [dns] [info] fingermap.monkeytype.com
+[caa-fingerprint] [dns] [info] auth.monkeytype.com
+[caa-fingerprint] [dns] [info] auth.monkeytype.com
+[caa-fingerprint] [dns] [info] monkeytype.com
+[caa-fingerprint] [dns] [info] redirects.monkeytype.com
+[caa-fingerprint] [dns] [info] api.monkeytype.com
+[caa-fingerprint] [dns] [info] api.monkeytype.com
+[caa-fingerprint] [dns] [info] redirects.monkeytype.com
+[caa-fingerprint] [dns] [info] dev.monkeytype.com
+[caa-fingerprint] [dns] [info] fingermap.monkeytype.com
+[caa-fingerprint] [dns] [info] dev.monkeytype.com
+[ssl-issuer] [ssl] [info] dev.monkeytype.com:8443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] api.monkeytype.com:8443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] dev.monkeytype.com:8443 ["monkeytype.com","*.monkeytype.com"]
+[wildcard-tls] [ssl] [info] dev.monkeytype.com:8443 ["CN: monkeytype.com","SAN: [monkeytype.com *.monkeytype.com]"]
+[ssl-dns-names] [ssl] [info] api.monkeytype.com:8443 ["monkeytype.com","*.monkeytype.com"]
+[wildcard-tls] [ssl] [info] api.monkeytype.com:8443 ["CN: monkeytype.com","SAN: [monkeytype.com *.monkeytype.com]"]
+[ssl-issuer] [ssl] [info] fingermap.monkeytype.com:443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] redirects.monkeytype.com:8443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] dev.monkeytype.com:443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] auth.monkeytype.com:8443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] auth.monkeytype.com:8443 ["monkeytype.com","*.monkeytype.com"]
+[ssl-issuer] [ssl] [info] monkeytype.com:8443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] fingermap.monkeytype.com:443 ["monkeytype.com","*.monkeytype.com"]
+[ssl-dns-names] [ssl] [info] redirects.monkeytype.com:8443 ["*.monkeytype.com","monkeytype.com"]
+[ssl-dns-names] [ssl] [info] dev.monkeytype.com:443 ["monkeytype.com","*.monkeytype.com"]
+[wildcard-tls] [ssl] [info] dev.monkeytype.com:443 ["CN: monkeytype.com","SAN: [monkeytype.com *.monkeytype.com]"]
+[wildcard-tls] [ssl] [info] auth.monkeytype.com:8443 ["CN: monkeytype.com","SAN: [monkeytype.com *.monkeytype.com]"]
+[ssl-dns-names] [ssl] [info] monkeytype.com:8443 ["monkeytype.com","*.monkeytype.com"]
+[wildcard-tls] [ssl] [info] monkeytype.com:8443 ["CN: monkeytype.com","SAN: [monkeytype.com *.monkeytype.com]"]
+[wildcard-tls] [ssl] [info] fingermap.monkeytype.com:443 ["CN: monkeytype.com","SAN: [monkeytype.com *.monkeytype.com]"]
+[wildcard-tls] [ssl] [info] redirects.monkeytype.com:8443 ["CN: monkeytype.com","SAN: [monkeytype.com *.monkeytype.com]"]
+[ssl-issuer] [ssl] [info] monkeytype.com:443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] redirects.monkeytype.com:443 ["Google Trust Services"]
+[ssl-issuer] [ssl] [info] fingermap.monkeytype.com:8443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] monkeytype.com:443 ["*.monkeytype.com","monkeytype.com"]
+[wildcard-tls] [ssl] [info] monkeytype.com:443 ["SAN: [monkeytype.com *.monkeytype.com]","CN: monkeytype.com"]
+[ssl-dns-names] [ssl] [info] redirects.monkeytype.com:443 ["monkeytype.com","*.monkeytype.com"]
+[wildcard-tls] [ssl] [info] redirects.monkeytype.com:443 ["SAN: [monkeytype.com *.monkeytype.com]","CN: monkeytype.com"]
+[ssl-dns-names] [ssl] [info] fingermap.monkeytype.com:8443 ["*.monkeytype.com","monkeytype.com"]
+[wildcard-tls] [ssl] [info] fingermap.monkeytype.com:8443 ["SAN: [monkeytype.com *.monkeytype.com]","CN: monkeytype.com"]
+[dmarc-detect] [dns] [info] _dmarc.monkeytype.com [""v=DMARC1; p=reject; ruf=mailto:contact@monkeytype.com; fo=1;""]
+[dmarc-detect] [dns] [info] _dmarc.monkeytype.com [""v=DMARC1; p=reject; ruf=mailto:contact@monkeytype.com; fo=1;""]
+[soa-detect:cloudflare] [dns] [info] api.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] fingermap.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] dev.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] dev.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] dev.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] monkeytype.com
+[soa-detect:cloudflare] [dns] [info] auth.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] auth.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] redirects.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] fingermap.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] monkeytype.com
+[soa-detect:cloudflare] [dns] [info] fingermap.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] redirects.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] monkeytype.com
+[soa-detect:cloudflare] [dns] [info] api.monkeytype.com
+[soa-detect:cloudflare] [dns] [info] auth.monkeytype.com
+[dmarc-detect] [dns] [info] _dmarc.monkeytype.com [""v=DMARC1; p=reject; ruf=mailto:contact@monkeytype.com; fo=1;""]
+[soa-detect:cloudflare] [dns] [info] redirects.monkeytype.com
+[ssl-issuer] [ssl] [info] api.monkeytype.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] api.monkeytype.com:443 ["monkeytype.com","*.monkeytype.com"]
+[wildcard-tls] [ssl] [info] api.monkeytype.com:443 ["SAN: [monkeytype.com *.monkeytype.com]","CN: monkeytype.com"]
+[ssl-issuer] [ssl] [info] auth.monkeytype.com:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] auth.monkeytype.com:443 ["monkeytype.com","*.monkeytype.com"]
+[wildcard-tls] [ssl] [info] auth.monkeytype.com:443 ["CN: monkeytype.com","SAN: [monkeytype.com *.monkeytype.com]"]
+[spf-record-detect] [dns] [info] monkeytype.com ["v=spf1 include:zoho.eu include:_spf.firebasemail.com include:_spf.smtp.mailtrap.live ~all""]
+[nameserver-fingerprint] [dns] [info] monkeytype.com ["dayana.ns.cloudflare.com.","tadeo.ns.cloudflare.com."]
+[txt-fingerprint] [dns] [info] monkeytype.com [""brave-ledger-verification=09a554c96d5d9600e32e1d430b1f27e1b43b68d2f1a67d520447739c951894f5"",""firebase=monkey-type"",""google-site-verification=gpz-2h6acdorLZKyU0l-fINCH6yA1bb1YZ0ihJ7Dhuc"",""v=spf1 include:zoho.eu include:_spf.firebasemail.com include:_spf.smtp.mailtrap.live ~all"",""zoho-verification=zb07691972.zmverify.zoho.eu""]
+[nameserver-fingerprint] [dns] [info] monkeytype.com ["dayana.ns.cloudflare.com.","tadeo.ns.cloudflare.com."]
+[nameserver-fingerprint] [dns] [info] monkeytype.com ["tadeo.ns.cloudflare.com.","dayana.ns.cloudflare.com."]
+[mx-fingerprint] [dns] [info] monkeytype.com ["10 mx.zoho.eu.","20 mx2.zoho.eu.","50 mx3.zoho.eu."]
+[aaaa-fingerprint] [dns] [info] fingermap.monkeytype.com ["2606:4700:20::681a:97","2606:4700:20::ac43:453d","2606:4700:20::681a:197"]
+[aaaa-fingerprint] [dns] [info] redirects.monkeytype.com ["2606:4700:20::ac43:453d","2606:4700:20::681a:197","2606:4700:20::681a:97"]
+[mx-service-detector:Zoho Mail] [dns] [info] monkeytype.com
+[aaaa-fingerprint] [dns] [info] auth.monkeytype.com ["2606:4700:20::681a:97","2606:4700:20::ac43:453d","2606:4700:20::681a:197"]
+[spf-record-detect] [dns] [info] monkeytype.com ["v=spf1 include:zoho.eu include:_spf.firebasemail.com include:_spf.smtp.mailtrap.live ~all""]
+[txt-fingerprint] [dns] [info] monkeytype.com [""firebase=monkey-type"",""google-site-verification=gpz-2h6acdorLZKyU0l-fINCH6yA1bb1YZ0ihJ7Dhuc"",""v=spf1 include:zoho.eu include:_spf.firebasemail.com include:_spf.smtp.mailtrap.live ~all"",""zoho-verification=zb07691972.zmverify.zoho.eu"",""brave-ledger-verification=09a554c96d5d9600e32e1d430b1f27e1b43b68d2f1a67d520447739c951894f5""]
+[aaaa-fingerprint] [dns] [info] auth.monkeytype.com ["2606:4700:20::681a:97","2606:4700:20::ac43:453d","2606:4700:20::681a:197"]
+[aaaa-fingerprint] [dns] [info] fingermap.monkeytype.com ["2606:4700:8dea:7e1d:56c5:0:93d4:e92b"]
+[mx-fingerprint] [dns] [info] monkeytype.com ["10 mx.zoho.eu.","20 mx2.zoho.eu.","50 mx3.zoho.eu."]
+[aaaa-fingerprint] [dns] [info] api.monkeytype.com ["2606:4700:20::681a:197","2606:4700:20::ac43:453d","2606:4700:20::681a:97"]
+[aaaa-fingerprint] [dns] [info] api.monkeytype.com ["2606:4700:8d9a:7e1d:56c5:0:93d4:e92b"]
+[spf-record-detect] [dns] [info] monkeytype.com ["v=spf1 include:zoho.eu include:_spf.firebasemail.com include:_spf.smtp.mailtrap.live ~all""]
+[mx-service-detector:Zoho Mail] [dns] [info] monkeytype.com
+[aaaa-fingerprint] [dns] [info] dev.monkeytype.com ["2606:4700:83ba:7e1d:56ca:0:93d4:e92b"]
+[txt-fingerprint] [dns] [info] monkeytype.com [""brave-ledger-verification=09a554c96d5d9600e32e1d430b1f27e1b43b68d2f1a67d520447739c951894f5"",""firebase=monkey-type"",""google-site-verification=gpz-2h6acdorLZKyU0l-fINCH6yA1bb1YZ0ihJ7Dhuc"",""v=spf1 include:zoho.eu include:_spf.firebasemail.com include:_spf.smtp.mailtrap.live ~all"",""zoho-verification=zb07691972.zmverify.zoho.eu""]
+[aaaa-fingerprint] [dns] [info] auth.monkeytype.com ["2606:4700:9ada:7e1d:56c5:0:93d4:e92b"]
+[aaaa-fingerprint] [dns] [info] redirects.monkeytype.com ["2606:4700:20::681a:97","2606:4700:20::681a:197","2606:4700:20::ac43:453d"]
+[aaaa-fingerprint] [dns] [info] dev.monkeytype.com ["2606:4700:20::681a:197","2606:4700:20::681a:97","2606:4700:20::ac43:453d"]
+[mx-fingerprint] [dns] [info] monkeytype.com ["20 mx2.zoho.eu.","10 mx.zoho.eu.","50 mx3.zoho.eu."]
+[aaaa-fingerprint] [dns] [info] dev.monkeytype.com ["2606:4700:8dea:7e1d:56ca:0:93d4:e92b"]
+[aaaa-fingerprint] [dns] [info] fingermap.monkeytype.com ["2606:4700:20::ac43:453d","2606:4700:20::681a:97","2606:4700:20::681a:197"]
+[mx-service-detector:Zoho Mail] [dns] [info] monkeytype.com
+[aaaa-fingerprint] [dns] [info] monkeytype.com ["2606:4700:20::681a:197","2606:4700:20::681a:97","2606:4700:20::ac43:453d"]
+[acme-challenge-detect] [dns] [info] _acme-challenge.dev.monkeytype.com ["TXT\t"QVKpMt5vUE5qABccAGKaB1n58K5nds7WmAnS-IdlpIw""]
+[aaaa-fingerprint] [dns] [info] monkeytype.com ["2606:4700:20::ac43:453d","2606:4700:20::681a:197","2606:4700:20::681a:97"]
+[aaaa-fingerprint] [dns] [info] monkeytype.com ["2606:4700:20::681a:97","2606:4700:20::681a:197","2606:4700:20::ac43:453d"]
+[aaaa-fingerprint] [dns] [info] redirects.monkeytype.com ["2606:4700:20::681a:97","2606:4700:20::ac43:453d","2606:4700:20::681a:197"]
+[acme-challenge-detect] [dns] [info] _acme-challenge.dev.monkeytype.com ["TXT\t"QVKpMt5vUE5qABccAGKaB1n58K5nds7WmAnS-IdlpIw""]
+[acme-challenge-detect] [dns] [info] _acme-challenge.dev.monkeytype.com ["TXT\t"QVKpMt5vUE5qABccAGKaB1n58K5nds7WmAnS-IdlpIw""]

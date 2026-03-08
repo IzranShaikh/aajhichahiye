@@ -1,0 +1,21 @@
+{
+  "id": "2e2dbb5a-11b1-40cf-bbb0-d8f69729b499",
+  "name": "Get Market Monkeys",
+  "data": null,
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{vault:authorization-secret}}",
+        "type": "string"
+      }
+    ]
+  },
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "localhost:8000/api/market/monkeys",
+  "queryParams": [],
+  "headerData": []
+}

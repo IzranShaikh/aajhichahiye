@@ -1,0 +1,29 @@
+{
+  "id": "4336003f-070a-4689-9272-814c0bbf8ca4",
+  "name": "survey monkey",
+  "data": null,
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "eyJraWQiOiJ6ZnQrS1FoNWkyR1BEb010UUI4bFJkbVNKUExmZzMrZjE0TXlPZ3Ria1VZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJhMDFmMDk5MS1kNmM1LTQ4NjgtODM3NC02NjRiYzU5M2Q0MWEiLCJldmVudF9pZCI6ImE2YjNiNzNlLTZmNWMtNGRjYi05ODQ0LTUzNDQ0MzNhMDU1YSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTc1MzM4NDcsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVwvZXUtd2VzdC0xX093OXBvOVh3cSIsImV4cCI6MTY1NzYyOTcyNCwiaWF0IjoxNjU3NjI2MTI0LCJqdGkiOiI3MDQ1OTY3Ny03YmZkLTQ4NjctOGVhYS1iYWEyOGFjYjMwMTAiLCJjbGllbnRfaWQiOiI0NXMzYmVja3IwY2ZtY2lpNWw3M3NoaTB0ZSIsInVzZXJuYW1lIjoiYTAxZjA5OTEtZDZjNS00ODY4LTgzNzQtNjY0YmM1OTNkNDFhIn0.bK59EbQVrybK3AkOe8hvbe0blYhPH_PYfSecj_uo5gxOLYl37CdnMHaCoy2nqTfXNHo_qa-tfc28qWmTswKnkqiDfygAEc8ao-4xqM9aOYLjmvHVTsGqSXQmMcp_BgWDljLSGPu22e-_EGNmw8mU3gKU7OIGpn4hgbLOISUz_w0tLqKm7nx5JJFl-yRNE989K9sfPQLbnCXCbHAl6SShVnEyZdFx9GBgIWmrMsb0L14bSMJBC_qP0aDdxkifLUEZN5EVGDRVLzqP0JOWvrp5deOej3dpbDEyhHzmMV0oHd7j8EMOslzK6-lCEykLP3U6ri3G9BrUv4c4ZKpkZVRFJQ",
+        "type": "string"
+      }
+    ]
+  },
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "{{dashboard-admin}}/api/integration/survey-monkey/revoke",
+  "queryParams": [],
+  "headerData": [
+    {
+      "key": "Authorization",
+      "value": "{{vault:bearer-token}}Aw",
+      "type": "text",
+      "description": null,
+      "enabled": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bccb7ca2-2f3f-451d-ba98-10b556444132",
+  "name": "http://localhost:8080/monkeys-money/users?email=lhs.morfeus@gmail.com",
+  "data": null,
+  "auth": null,
+  "events": null,
+  "description": null,
+  "method": "GET",
+  "url": "http://localhost:8080/monkeys-money/users?email=lhs.morfeus@gmail.com",
+  "queryParams": [
+    {
+      "key": "email",
+      "value": "lhs.morfeus@gmail.com",
+      "type": "text",
+      "enabled": true,
+      "equals": true
+    }
+  ],
+  "headerData": []
+}
