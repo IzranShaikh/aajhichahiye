@@ -38,7 +38,8 @@ TOOLS = [
     {
         "name": "nmap",
         "cmd": "sudo apt install nmap -y",
-        "extra": ""
+        "extra": "",
+        "usage":"nmap -iL OUTPUT_DIR /ns_live.txt --script http-waf-detect -p- -sV -oX OUTPUT_DIR /nmap.xml" 
     },
     {
         "name": "pipx",
@@ -48,7 +49,8 @@ TOOLS = [
     {
         "name": "postleaks",
         "cmd": "pipx install postleaks",
-        "extra": ""
+        "extra": "",
+        "usage":"postleaks -k keyword > postleaks.txt"
     },
     # {
     #     "name": "go",
@@ -58,42 +60,55 @@ TOOLS = [
     {
         "name": "dirsearch",
         "cmd": "sudo apt install dirsearch -y",
-        "extra": ""
+        "extra": "",
+        "usage":"dirsearch --no-color -q -l INPUT_DIR/scanmap.txt -o OUTPUT_DIR/dirsearch.txt" 
     },
     {
         "name": "wafw00f",
         "cmd": "sudo apt install wafw00f -y",
-        "extra": ""
+        "extra": "",
+        "usage":"wafw00f -i OUTPUT_DIR/live.txt -f json -o OUTPUT_DIR/wafw00f.json"
     },
     {
         "name": "subfinder",
         "cmd": "go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest",
-        "extra": ""
+        "extra": "",
+        "usage":"subfinder -d domain -silent"
     },
     {
         "name": "httpx",
         "cmd": "go install github.com/projectdiscovery/httpx/cmd/httpx@latest",
-        "extra": ""
+        "extra": "",
+        "usage":"httpx -silent -nc -p 1-65535 -l OUTPUT_DIR/subdomains.txt -sc -title -td -oa -o OUTPUT_DIR / livescanmap"
     },
     {
         "name": "nuclei",
         "cmd": "go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest",
-        "extra": ""
+        "extra": "",
+        "usage":"nuclei -nc -silent -l INPUT_DIR/scanmap.txt -t ./nt/ -severity critical,high,medium,low -c 50 -rate-limit 1500 -o OUTPUT_DIR/nuclei.txt"
     },
     {
         "name": "amass",
         "cmd": "go install github.com/owasp-amass/amass/v4/...@master",
-        "extra": ""
+        "extra": "",
+        "usage":"./amascript.sh <domain> OUTPUT_DIR"
     },
     {
         "name": "sublist3r",
         "cmd": "sudo apt install sublist3r -y",
-        "extra": ""
+        "extra": "",
+        "usage":"sublist3r -d domain -n -o OUTPUT_DIR /sublist3r.txt"
     },
     {
         "name": "requests",
         "cmd": "pip install requests",
         "extra": "sudo apt install python3-requests -y"
+    },
+    {
+        "name": "gau",
+        "cmd": "go install github.com/lc/gau/v2/cmd/gau@latest",
+        "extra": "",
+        "usage":"gau domain > gau.txt"
     }
 ]
 
