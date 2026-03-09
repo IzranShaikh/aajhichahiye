@@ -42,14 +42,15 @@ TOOLS = {
     },
     "gau": {
         "cmd": lambda domain: ["gau", domain],
-        "output": OUTPUT_DIR / "gau.txt",
+        "output": "gau.txt",
         "blocking": False
     },
     "postleaks": {
         "cmd": lambda keyword: ["postleaks",
                                "-k", keyword,
-                               "--output", OUTPUT_DIR / "postleaks.txt"],
-        # "output": "postleaks.txt",
+                            #    "--output", OUTPUT_DIR / "postleaks.txt"
+                               ],
+        "output": "postleaks.txt",
         "blocking": True
     },
 }
@@ -58,7 +59,7 @@ def run_tool(name, tool_config, param):
     print(f"[/] Running {name}...")
     stdout_target = None
     if tool_config.get("output"):
-        outfile = INPUT_DIR / tool_config["output"]
+        outfile = OUTPUT_DIR / tool_config["output"]
         stdout_target = open(outfile, "w")
     process = subprocess.Popen(
         tool_config["cmd"](param),
@@ -116,3 +117,5 @@ if __name__ == "__main__":
     except Exception as e:
         print("[-] Error occured")
         print(str(e))
+
+ 
