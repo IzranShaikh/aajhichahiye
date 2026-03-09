@@ -401,8 +401,7 @@ def nse_scan(input_xml, output_file):
                 "--script-timeout",
                 "5m",
                 f"-p{ports}",
-                "--script",
-                "default,safe,vuln,discovery,auth,brute,exploit",
+                "--script", "all and not dos",
                 target,
             ]
             outfile.write(f"\n\n----- Scanning {target} on ports {ports} -----\n")
