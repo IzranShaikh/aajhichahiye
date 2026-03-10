@@ -109,6 +109,17 @@ TOOLS = [
         "cmd": "go install github.com/lc/gau/v2/cmd/gau@latest",
         "extra": "",
         "usage":"gau domain > gau.txt"
+    },
+    {
+        "name": "pipx2",
+        "cmd": "sudo apt install pipx -y",
+        "extra": ""
+    },
+    {
+    "name": "linkfinder",
+    "cmd": "linkfinder.py",
+    "extra": "pipx install jsbeautifier",
+    "usage": "python3 linkfinder.py -i https://www.geeksforgeeks.org/ -d -r \"\\.js$\" -o cli"
     }
 ]
 
