@@ -53,7 +53,13 @@ TOOLS = {
         "output": "postleaks.txt",
         "blocking": True
     },
+    "grayhatwarfare": {
+        "cmd": lambda domain: ["curl", "--request", "GET", "--url", f"https://buckets.grayhatwarfare.com/api/v2/files?keywords={domain}&excluded-buckets=4%2C5", "--header", "Authorization: Bearer de49bd59f8881427e8a40c86e173c3a7"],
+        "output": "buckets.json",
+        "blocking": False
+    },
 }
+
 
 def run_tool(name, tool_config, param):
     print(f"[/] Running {name}...")
@@ -86,16 +92,30 @@ def run_pipeline(domain):
     # -------------------------
     # STAGE 1: RUN MORE SCAN TOOLS (UNDER TESTING)
     # -------------------------
-    for name in ["dirsearch", "gau", "postleaks"]:
+    for name in [
+                 "dirsearch", 
+                 "gau", 
+                 "postleaks",
+                 "grayhatwarfare"
+                 ]:
         tool = TOOLS[name]
-        tool_name, proc = run_tool(name, tool, "")
+        tool_name, proc = run_tool(name, tool, domain)
         processes[tool_name] = proc
-    for name in ["dirsearch", "gau", "postleaks"]:
+    for name in [
+                 "dirsearch",
+                 "gau",
+                 "postleaks",
+                 "grayhatwarfare"
+                 ]:
         tool = TOOLS[name]
         if tool["blocking"]:
             print(f"[*] Waiting for {name}...")
             processes[name].wait()
             print(f"[+] {name} done")
+
+    # -------------------------
+    # STAGE 2: 
+    # -------------------------
 
 
 # -------------------------
