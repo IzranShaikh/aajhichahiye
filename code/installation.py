@@ -111,14 +111,9 @@ TOOLS = [
         "usage":"gau domain > gau.txt"
     },
     {
-        "name": "pipx2",
-        "cmd": "sudo apt install pipx -y",
-        "extra": ""
-    },
-    {
     "name": "linkfinder",
-    "cmd": "linkfinder.py",
-    "extra": "pipx install jsbeautifier",
+    "cmd": "pipx install jsbeautifier",
+    "extra": "sudo apt install jsbeautifier",
     "usage": "python3 linkfinder.py -i https://www.geeksforgeeks.org/ -d -r \"\\.js$\" -o cli"
     }
 ]
